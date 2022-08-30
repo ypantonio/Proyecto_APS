@@ -31,3 +31,8 @@ __________________________________________________________________
 
 El proyecto cuenta con las configuraciones básicas para empezar a programar, cuenta con dos carpetas, una dirigida a todo el trabajo relacionado a JavaScript, con el nombre de Js y otra carpeta con el espacio para trabajar lo relacionado al diseño que se encuentra con el nombre de Css, también cuenta con el indispensable archivo index.html como nuestro archivo principal del proyecto.
 Este repositorio cuenta con dos ramas de trabajo, creadas con el fin de que cada desarrolladora tenga su propio espacio de trabajo, ambas ramas se identifican con el nombre respectivo de la desarrolladora, la primera rama va asignada a Yasmin Antonio y la segunda rama a Karen Valdés.
+
+__________________________________________________________________
+
+PARA CONOCER NUESTRO PROYECTO INGRESA A ESTE LINK 
+⇢ ⇢   ⇠ ⇠
