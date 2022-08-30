@@ -25,3 +25,9 @@ Nuestro objetivo como grupo es lograr crear un entorno de trabajo para todas nos
 
 ________________
 ___________________________
+
+D E S C R I P C I Ó N  D E  C O N F I G U R A C I O N E S :
+__________________________________________________________________
+
+El proyecto cuenta con las configuraciones básicas para empezar a programar, cuenta con dos carpetas, una dirigida a todo el trabajo relacionado a JavaScript, con el nombre de Js y otra carpeta con el espacio para trabajar lo relacionado al diseño que se encuentra con el nombre de Css, también cuenta con el indispensable archivo index.html como nuestro archivo principal del proyecto.
+Este repositorio cuenta con dos ramas de trabajo, creadas con el fin de que cada desarrolladora tenga su propio espacio de trabajo, ambas ramas se identifican con el nombre respectivo de la desarrolladora, la primera rama va asignada a Yasmin Antonio y la segunda rama a Karen Valdés.
