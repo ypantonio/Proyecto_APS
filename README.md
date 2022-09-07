@@ -5,17 +5,19 @@ ____________________________________________________________________
 INTEGRANTES :
 ____________________________________________________________________
 
-✰ Karen Jazmin García Rodríguez     →  Especialidad : Biología
+✰ Karen Jazmin García Rodríguez       →  Especialidad : Biología
 
-✰ Emili Elisa Gonzalez Gómez        →  Especialidad : Biología
+✰ Emili Elisa Gonzalez Gómez          →  Especialidad : Biología
 
-✰ Karla Daniela Mota Salguero       →  Especialidad : Diseño              
+✰ Karla Daniela Mota Salguero         →  Especialidad : Diseño              
 
-✰ Stephanie Alondra Herrera Juárez  →  Especialidad : Diseño
+✰ Stephanie Alondra Herrera Juárez    →  Especialidad : Diseño
 
-✰ Yasmín del Pilar Antonio Pérez    →  Especialidad : Computación
+✰ Yasmín del Pilar Antonio Pérez      →  Especialidad : Computación
 
-✰ Karen Sophia Valdés Leonardo      →  Especialidad : Computación
+✰ Karen Sophia Valdés Leonardo        →  Especialidad : Computación
+
+✰ Bryan Estuardo Hernández Ortiz      →  Especialidad : Computación
 
 ____________________________________________________________________
 
