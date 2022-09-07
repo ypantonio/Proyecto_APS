@@ -1,3 +1,5 @@
+/*ESTO ES UNA PRUEBA PARA VER QUE VISUALIZACIÓN NOS FAVORECE MÁS*/ 
+
 let elementos = ['','¿Qué es la bromatología?'];
 
 let root = document.querySelector("#root");
