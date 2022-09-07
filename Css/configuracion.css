@@ -3,3 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    font-family: monospace;
+    color: var(--colorTexto);
+}
+
+.espacio{
+    width: 97%;
+    height: 55rem;
+    padding-bottom: 2rem;
+    padding-top: 5rem;
+    margin-bottom: 0.5rem;
+
+    border: #000 solid 2px;
+    display: flex;
+    margin-left: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
