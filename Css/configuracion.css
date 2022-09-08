@@ -3,11 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-html {
-    font-family: monospace;
-    color: var(--colorTexto);
-}
-
 .espacio{
     width: 97%;
     height: 55rem;
@@ -20,4 +15,36 @@ html {
     margin-left: 2rem;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+html{
+    font-size: 10px;
+}
+
+:root{
+    --titulo: 'Fredoka One', cursive;
+    --texto: 'Didact Gothic', sans-serif;
+
+    /***************** COLORES **********************/
+    --celeste: #049DBF;
+    --verde: #B0BF3C;
+    --amarillo: #FFC600;
+    --naranja: #F89C49;
+    --piel: #F6AE91;
+    --rojo: #D94748;
+    --blanco: #FFFAFA;
+    --negro: #181818;
+
+    /************** TAMAÑO (OPCIONAL)*************/
+    --titulo1: 24px;
+    --texto1: 14px;
+
+}
+@media screen and  (max-width:37.5rem){
+    
+}
+@media screen and  (max-width:136.5rem){
+    
+}
+@media screen and  (max-width:192rem){
+    
 }
