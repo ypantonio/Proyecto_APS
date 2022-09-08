@@ -9,6 +9,8 @@ ____________________________________________________________________
 
 ✰ Emili Elisa Gonzalez Gómez          →  Especialidad : Biología
 
+✰ Gershwin Rodrigo Gonzalez Aguilar   →  Especialidad : Biología
+
 ✰ Karla Daniela Mota Salguero         →  Especialidad : Diseño              
 
 ✰ Stephanie Alondra Herrera Juárez    →  Especialidad : Diseño
