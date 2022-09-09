@@ -5,6 +5,7 @@
     padding: 0px;
     text-decoration: none;
     box-sizing: border-box;
+    color: #000;
     font-size: 17px;
     max-width: 1366px ;
     font-family: 'Didact Gothic', sans-serif;;
@@ -14,7 +15,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 16px;
-    filter:alpha(opacity=70);
+
 
   
     
