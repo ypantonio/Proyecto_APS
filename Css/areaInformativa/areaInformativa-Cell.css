@@ -29,19 +29,23 @@
     }
     .Info  .CuadroImg{
         flex-direction: column-reverse;
-        width: 70rem;
-        height: 70rem;
+        width:100% ;
         justify-content: center;
         align-items: center;
     }
-    .margen{
-        margin-top: 36rem;
+    .Info .margen{
+        width: 80%;
+        margin-top: 45rem;
     }
-    .margen2{
-        margin-top: 30rem;
+    .Info .margen2{
+        width: 80%;
+        margin-top: 65rem;
     }
     .Info .TextoEncima{
-        margin-top: 29rem;
+        margin-top: 30rem;
 
+    }
+    .top{
+        margin-top: -12%;
     }
 }
