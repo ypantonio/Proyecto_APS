@@ -3,7 +3,7 @@
 export let header = document.createElement("div");
 header.innerHTML = 
 
-'<img src="/img/healthy-way-logo 1.png" class="logo">'+
+'<img src="./img/healthy-way-logo 1.png" class="logo">'+
 '<ul class="nav">'+
     '<li> <a id="inicia" class="inicia" href="#"> Inicio </a>  </li>'+
     '<li> <a class="carbo" href="#"> Olla alimentaria</a>  </li>'+
