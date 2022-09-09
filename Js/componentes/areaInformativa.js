@@ -14,11 +14,7 @@ datos.innerHTML =
     '<img class="VectorAmarillo" src="https://i.postimg.cc/TPg019Gc/manchas-2-1.png" alt="">'+
     '<div class="CuadroImg">'+
         '<img class="ImgFrente margen" src="https://i.postimg.cc/XJxzN8cz/Olla-alimentaria.png" alt="">'+
-<<<<<<< HEAD
         '<img class="ImgFrente2 margen2" src="https://i.postimg.cc/FK4cWQ5j/Group-23.png" alt="">'+
-=======
-        '<img class="ImgFrente margen2" src="https://i.postimg.cc/FK4cWQ5j/Group-23.png" alt="">'+
->>>>>>> 48cd0f4859ad3eacaba710d8752722c65c4c951a
     '</div>'+
     '<div class="TextoEncima">'+
         '<p class="parrafo">Es un instrumento para orientar a la población sobre cómo nutrirse saludablemente, es una de las guías alimentarias. En el caso de Guatemala, las recomendaciones se resumen en la figura de una olla. La olla alimentaria posee 6 niveles de alimentos, en donde podemos encontrar los alimentos que se cultivan en Guatemala y el por qué es importante comerlas con frecuencia.</p>'+

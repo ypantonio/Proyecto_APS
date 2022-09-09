@@ -4,11 +4,9 @@
         height: auto;
         justify-content: center;
         align-items: center;
-<<<<<<< HEAD
         background-color: var(--blanco);
         margin-top: 30rem;
-=======
->>>>>>> 48cd0f4859ad3eacaba710d8752722c65c4c951a
+
     }
     .area{
         width: 100%;
@@ -40,7 +38,7 @@
     
     }
     .parrafo{
-        font-family: Didact Gothic;
+        font-family: 'Didact Gothic', sans-serif;
         font-size: 25.2px;
         font-weight: 400;
         line-height: 37px;
@@ -57,32 +55,29 @@
     }
     .VectorAmarillo{
         width: 100%;
-<<<<<<< HEAD
-=======
+
         height: 60rem;
->>>>>>> 48cd0f4859ad3eacaba710d8752722c65c4c951a
+
     }
     .CuadroImg{
         width: 90%;
         height:54.5%;
-        margin-top: 2%;
+        margin-top: 0.5%;
         padding: 0 2%;
         position: absolute;
         display:flex;
         flex-direction: row;
     }
     .ImgFrente{
-<<<<<<< HEAD
+
         width: 60rem;
         height: 60rem;
     }
     .ImgFrente2{
         width: 60rem;
         height: 52rem;
-=======
-        width: 50%;
-        height: 100%;
->>>>>>> 48cd0f4859ad3eacaba710d8752722c65c4c951a
+
+        
     }
     .TextoEncima{
         position: absolute;
@@ -91,10 +86,10 @@
         height: auto;
         padding: 1.5%;
         margin: auto;
-<<<<<<< HEAD
+        font-family: 'Didact Gothic', sans-serif;
         margin-top: 58rem;
-=======
-        margin-top: 45rem;
->>>>>>> 48cd0f4859ad3eacaba710d8752722c65c4c951a
+
+       
+
     }    
 }

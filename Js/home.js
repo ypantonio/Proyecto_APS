@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 
 /**ESTRUCTURA DE HOME* */
-=======
->>>>>>> 48cd0f4859ad3eacaba710d8752722c65c4c951a
+
 export let back = document.createElement("div");
 back.innerHTML = 
 '<section class="vector" >'+
@@ -15,7 +13,4 @@ export function Crearfondo(){
     let div_sect = document.querySelector("#sect");
     div_sect.appendChild(back);
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 48cd0f4859ad3eacaba710d8752722c65c4c951a
