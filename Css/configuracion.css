@@ -26,12 +26,12 @@ html{
     --texto1: 14px;
 
 }
-@media screen and  (max-width:37.5rem){
+@media screen and  (min-width:37.5rem){
     
 }
 @media screen and  (max-width:136.5rem){
     
 }
-@media screen and  (max-width:192rem){
+@media screen and  (min-width:192rem){
     
 }
