@@ -1,0 +1,47 @@
+@media screen and  (max-width:37.5rem){
+    .Info .area{
+        width: 100%
+    }
+
+    .Info .Img1{
+        width: 40px;
+        visibility: hidden;
+    }
+    .Info .paraTexto{
+        width: 90%;
+        padding: 2.5%;
+        margin: auto;
+        margin-left: 5%;
+        margin-right: -5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        background-color: white;
+
+    }
+    .Info .titulo{
+        font-size: 24px;
+    }
+    .Info .parrafo{
+        font-size: 19px;
+    }
+    .Info .VectorAmarillo{
+        display: none;
+    }
+    .Info  .CuadroImg{
+        flex-direction: column-reverse;
+        width: 70rem;
+        height: 70rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .margen{
+        margin-top: 36rem;
+    }
+    .margen2{
+        margin-top: 30rem;
+    }
+    .Info .TextoEncima{
+        margin-top: 29rem;
+
+    }
+}
