@@ -4,8 +4,11 @@
         height: auto;
         justify-content: center;
         align-items: center;
+<<<<<<< HEAD
         background-color: var(--blanco);
         margin-top: 30rem;
+=======
+>>>>>>> 48cd0f4859ad3eacaba710d8752722c65c4c951a
     }
     .area{
         width: 100%;
@@ -54,6 +57,10 @@
     }
     .VectorAmarillo{
         width: 100%;
+<<<<<<< HEAD
+=======
+        height: 60rem;
+>>>>>>> 48cd0f4859ad3eacaba710d8752722c65c4c951a
     }
     .CuadroImg{
         width: 90%;
@@ -65,12 +72,17 @@
         flex-direction: row;
     }
     .ImgFrente{
+<<<<<<< HEAD
         width: 60rem;
         height: 60rem;
     }
     .ImgFrente2{
         width: 60rem;
         height: 52rem;
+=======
+        width: 50%;
+        height: 100%;
+>>>>>>> 48cd0f4859ad3eacaba710d8752722c65c4c951a
     }
     .TextoEncima{
         position: absolute;
@@ -79,6 +91,10 @@
         height: auto;
         padding: 1.5%;
         margin: auto;
+<<<<<<< HEAD
         margin-top: 58rem;
+=======
+        margin-top: 45rem;
+>>>>>>> 48cd0f4859ad3eacaba710d8752722c65c4c951a
     }    
 }

@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+<<<<<<< HEAD
 .espacio{
     width: 97%;
     height: 70rem;
@@ -16,6 +17,8 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
+=======
+>>>>>>> 48cd0f4859ad3eacaba710d8752722c65c4c951a
 html{
     font-size: 10px;
 }
@@ -39,7 +42,11 @@ html{
     --texto1: 14px;
 
 }
+<<<<<<< HEAD
 @media screen and  (max-width:37.5rem){
+=======
+@media screen and  (min-width:37.5rem){
+>>>>>>> 48cd0f4859ad3eacaba710d8752722c65c4c951a
     
 }
 @media screen and  (max-width:136.5rem){
@@ -47,4 +54,8 @@ html{
 }
 @media screen and  (max-width:192rem){
     
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 48cd0f4859ad3eacaba710d8752722c65c4c951a
