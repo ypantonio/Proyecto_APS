@@ -40,7 +40,7 @@ html{
     --texto1: 14px;
 
 }
-@media screen and  (max-width:37.5rem){
+
 
 @media screen and  (min-width:37.5rem){
     
@@ -51,4 +51,4 @@ html{
 @media screen and  (max-width:192rem){
     
 }
-}
+
