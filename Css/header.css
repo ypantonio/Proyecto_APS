@@ -1,0 +1,60 @@
+
+/*****PARTE DE HEADER YASMIN ANTONIO****/
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 17px;
+    max-width: 1366px ;
+    font-family: 'Didact Gothic', sans-serif;;
+}
+header{
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    filter:alpha(opacity=70);
+
+  
+    
+}
+.logo{
+    width: 73px;
+    height: 73px;
+    margin: 0;
+}
+.nav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: 83rem;
+    margin-top: -6rem;
+    align-items: center;
+}
+a{
+    padding: 0px 16px ;
+    
+}
+
+a:hover{
+    background-color: var(--amarillo);
+    border-radius: 2rem;
+    padding: 10px 25px 10px 25px ;
+    transition: 0.8s;
+}
+/*@media screen and  (min-width:37.5rem){
+    .boton{
+        display: none;
+    }
+    .nav{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        margin-left: 83rem;
+        margin-top: -6rem;
+        align-items: center;
+    }
+}*/

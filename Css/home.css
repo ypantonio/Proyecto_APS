@@ -1,0 +1,19 @@
+
+/**IMAGEN INICIAL EN HOME*/
+body{
+    background-image: url(/img/Manchas\ 1\ 1.png);
+}
+.cocina{
+    margin-left: 515px;
+    margin-top: 50px;
+    position: static;
+}
+.vector{
+    width: 100%;
+}
+.titulo1{
+    font-family: 'Fredoka One', cursive;
+    font-size: 80px;
+    margin-top: -60rem;
+    margin-left: 5rem;
+}
