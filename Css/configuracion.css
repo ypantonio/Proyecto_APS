@@ -3,19 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-.espacio{
-    width: 97%;
-    height: 70rem;
-    padding-bottom: 2rem;
-    padding-top: 5rem;
-    margin-bottom: 0.5rem;
-
-    border: #000 solid 2px;
-    display: flex;
-    margin-left: 2rem;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
 html{
     font-size: 10px;
 }
@@ -39,7 +26,7 @@ html{
     --texto1: 14px;
 
 }
-@media screen and  (max-width:37.5rem){
+@media screen and  (min-width:37.5rem){
     
 }
 @media screen and  (max-width:136.5rem){
