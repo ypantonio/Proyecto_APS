@@ -1,11 +1,12 @@
-export function footer (){
-    let root = document.querySelector("#footer");
-  
-    root.innerHTML = 
-    
-    
-    
     /*SEGUNDA SECCION INFORMACION EXTRA */
+
+/*ESTA ÁREA FUE TRABAJADA POR BRYAN HERNANDEZ*/ 
+
+export function footer (){
+    let footer = document.querySelector("#footer");
+  
+    footer.innerHTML = 
+     /*SEGUNDA SECCION INFORMACION EXTRA */
     '<section class="infoInfood">'+
     '<div class="infoInfood">' +
     '<div class="ventana">' +
@@ -27,6 +28,8 @@ export function footer (){
      '<div class="cuadro_barra">' +
          '<h2 class="cuadro_titulo">¿cómo funciona?</h2>' +
          '<p class="cuadro_parrafo">En la alla de Guatemala se representan seis grupos de alimentos basicos , asi como la frecunacia de consumo aconsejada, de consumo aconsejada, tanto diaria como semanal, '
+
+         '<p class="cuadro_parrafo">En la alla de Guatemala se representan seis grupos de alimentos basicos , asi como la frecunacia de consumo aconsejada, de consumo aconsejada, tanto diaria como semanal, '+
          'de cada uno de '+
              'ellos todos los dias.' +
          '</p>' +
@@ -48,10 +51,7 @@ export function footer (){
  '</div>'+
          
      '</div>'+
- 
- 
-   
- 
+
 
     '</section>';
 }

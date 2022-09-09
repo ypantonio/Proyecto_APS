@@ -16,7 +16,10 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> Section-BryanHernandez
 html{
     font-size: 10px;
 }
@@ -40,9 +43,13 @@ html{
     --texto1: 14px;
 
 }
+<<<<<<< HEAD
 
 
 @media screen and  (min-width:37.5rem){
+=======
+@media screen and  (max-width:37.5rem){
+>>>>>>> Section-BryanHernandez
     
 }
 @media screen and  (max-width:136.5rem){
@@ -50,5 +57,9 @@ html{
 }
 @media screen and  (max-width:192rem){
     
+<<<<<<< HEAD
 }
 
+=======
+}
+>>>>>>> Section-BryanHernandez
