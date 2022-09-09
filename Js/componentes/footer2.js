@@ -1,3 +1,5 @@
+/*ESTA ÁREA FUE TRABAJADA POR BRYAN HERNANDEZ*/ 
+
 export function footer (){
     let footer = document.querySelector("#footer");
   
