@@ -1,4 +1,5 @@
 /***NO CREAR MAS COSAS EN ESTE DOCUMENTO ***/
+/**ESTRUCTURA DE HAEDER* */
 export let header = document.createElement("div");
 header.innerHTML = 
 

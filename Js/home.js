@@ -1,3 +1,4 @@
+/**ESTRUCTURA DE HOME* */
 export let back = document.createElement("div");
 back.innerHTML = 
 '<section class="vector" >'+
