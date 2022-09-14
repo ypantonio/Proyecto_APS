@@ -1,0 +1,200 @@
+#footer {
+    background-color: #fff;
+    padding-top: 5rem;
+}
+.infoInfood{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding-bottom: 13.8rem;
+    
+    justify-content: center;
+    align-items: center;
+    }
+    .ventana{
+     width: 50rem;
+     height: 15rem;
+     margin: auto;
+     background-color: var(--rojo);
+     border-radius: 2rem 2rem 2rem 2rem;
+    }
+    
+    .ventana_barra{
+        width: 50rem;
+        height: 3.5rem;
+        margin-top: 10rem;
+        border-radius: 2rem 2rem 2rem 2rem ;
+        background-color: var(--blanco);
+    }
+    
+    .ventana_titulo{
+        margin-left: 2rem;
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+    .ventana_titulo1{
+        margin-left: 20rem;
+        font-size: 2rem;
+    }
+    
+    .padreFooter{
+        display: flex;
+        flex-direction:row-reverse;
+        justify-content: center;
+        align-items: center;
+        /* margin-bottom: 13.8rem; */
+    }
+    
+    .cuadro{
+        width: 28rem;
+        height: 18rem;
+        background-color: var(--amarillo);
+        border-radius: 2rem 2rem 2rem 2rem;
+        margin-top: 1rem;
+        font-size: 1rem;
+        margin-left: -50rem;
+    
+    }
+    
+    .cuadro_barra{
+        width: 28rem;
+        height: 3rem;
+        background-color:var(--blanco);
+        border-radius: 2rem 2rem 2rem 2rem;
+    }
+    
+    .cuadro_titulo{
+        margin-left: 3rem;
+    }
+    
+    .cuadro_parrafo{
+        font-size: 1.5rem;
+        margin-top: 3rem;
+        margin-left: 1rem;
+    }
+    
+    .cuadrover{
+        width: 28rem;
+        height: 16rem;
+        font-size: 1.2rem;
+        
+        margin-left: 50rem;
+        background-color: var(--verde);
+        
+        margin-top: -12rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 2rem 2rem 2rem 2rem;
+    }
+    .cuadrover_titulo1{
+        margin-left: 3rem;
+        font-size: 1.6rem;
+        
+        
+    }
+    @media only screen and (max-width:37.5rem) {
+        .padreFooter{
+            max-width: 36.4rem;
+            padding-bottom: 5.5rem;
+            padding-top: 3.5rem;
+    
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+    
+        .ventana{
+            width: 50rem;
+            height: 15rem;
+            margin: auto;
+            max-width: 30rem;
+            max-height: 15rem;
+            background-color: var(--rojo);
+            border-radius: 2rem 2rem 2rem 2rem;
+        }
+    
+        .ventana_barra{
+            width: 40rem;
+            height: 3.5rem;
+            max-width: 28rem;
+            max-height: 35rem;
+            margin-top: 10rem;
+            border-radius: 2rem 2rem 2rem 2rem ;
+    
+            background-color: var(--blanco);
+        }
+        
+        .ventana_titulo{
+            margin-left: 1rem;
+            font-size: 1rem;
+            margin-top: 1rem;
+        }
+        .ventana_titulo1{
+            margin-left: 5rem;
+            font-size: 2rem;
+        }
+        
+        
+        .cuadro{
+            width: 19rem;
+            height: 18rem;
+            max-width: 13rem;
+            max-height: 60rem;
+            margin-left: -21rem;
+            background-color: var(--amarillo);
+            border-radius: 2rem 2rem 2rem 2rem;
+            margin-top: -10rem;
+            font-size: 1rem;
+            
+        
+        }
+        
+        .cuadro_barra{
+            width: 37rem;
+            height: 3rem;
+            max-width: 13rem;
+            max-height: 30rem;
+    
+            
+            background-color:var(--blanco);
+            border-radius: 2rem 2rem 2rem 2rem;
+        }
+        
+        .cuadro_titulo{
+            font-size: 1rem;
+            margin-left: 2rem;
+            margin-top: -1rem;
+        }
+        
+        .cuadro_parrafo{
+            
+            font-size: 1rem;
+            margin-top: 3rem;
+            margin-left: 1rem;
+            
+        }
+        
+        .cuadrover{
+            width: 29rem;
+            height: 16rem;
+            max-width: 13rem;
+            max-height: 45rem;
+            font-size: 1.2rem;
+            margin-left: 20rem;
+           
+           
+            background-color: var(--verde);
+            
+            
+           
+            
+            border-radius: 2rem 2rem 2rem 2rem;
+        }
+        .cuadrover_titulo1{
+            margin-left: 1rem;
+            font-size: 1rem;
+            
+            
+        }
+    }
