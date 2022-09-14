@@ -1,10 +1,10 @@
 
 /**CONEXIONDE HEADER YASMIN  */
-import {Crearheader} from "./componentes/header.js";
+import {Crearheader} from "./componentes/nav.js";
 Crearheader();
 
 /****CONECCIÓN DE LA HOME** */
-import { Crearfondo } from "./componentes/home.js";
+import { Crearfondo } from "./componentes/banner.js";
 Crearfondo();
 
 /*MUESTRA PARTE DE KAREN VALDÉS*/

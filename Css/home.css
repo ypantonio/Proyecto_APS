@@ -1,19 +1,24 @@
 
 /**IMAGEN INICIAL EN HOME*/
 body{
-    background-image: url(../img/Manchas1.png);
-}
-.cocina{
-    margin-left: 515px;
-    margin-top: 50px;
-    position: static;
+    max-width: 1920px;
+    margin: auto;
+    /* background-image: url(../img/Manchas1.png); */
 }
 .vector{
     width: 100%;
+    height: auto;
+    background-image: url(../img/Manchas1.png);
+    padding: 0px 5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .titulo1{
     font-family: 'Fredoka One', cursive;
     font-size: 80px;
-    margin-top: -60rem;
-    margin-left: 5rem;
+}
+.cocina{
+    width: 60%;
 }

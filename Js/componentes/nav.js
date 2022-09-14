@@ -8,7 +8,7 @@ header.innerHTML =
     <li> <a id="inicia" class="inicia" href="#"> Inicio </a>  </li>
     <li> <a class="carbo" href="#"> Olla alimentaria</a>  </li>
     <li> <a class="calor" href="#"> Estadísticas</a>  </li>
-    <li> <a class="lipi" href="#"> Nutrientes</a>  </li>
+    <li> <a class="lipi" href="#"s> Nutrientes</a>  </li>
 </ul>
 <button class="boton">
     <div class="linea"></div>
