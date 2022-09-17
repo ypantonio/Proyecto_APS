@@ -3,18 +3,25 @@
 export let header = document.createElement("div");
 header.innerHTML =
 `
-<img src="./img/healthy-way-logo 1.png" class="logo">
-<ul class="nav">
-    <li> <a id="inicia" class="inicia" href="#"> Inicio </a>  </li>
-    <li> <a class="carbo" href="#"> Olla alimentaria</a>  </li>
-    <li> <a class="calor" href="#"> Estadísticas</a>  </li>
-    <li> <a class="lipi" href="#"s> Nutrientes</a>  </li>
-</ul>
-<button class="boton">
-    <div class="linea"></div>
-    <div class="linea"></div>
-    <div class="linea"></div>
-</button>
+<div class="general">
+    <div class="para_img">
+        <img src="./img/healthy-way-logo 1.png" class="logo">
+    </div>
+    <div class="para_menu">
+        <ul class="nav">
+            <li> <a id="inicia" class="inicia a" href="#"> Inicio </a>  </li>
+            <li> <a class="carbo a" href="#"> Olla alimentaria</a>  </li>
+            <li> <a class="calor a" href="#"> Estadísticas</a>  </li>
+            <li> <a class="lipi a" href="#"s> Nutrientes</a>  </li>
+        </ul>
+    </div>
+</div>
+<!--<button class="boton">
+<div class="linea"></div>
+<div class="linea"></div>
+<div class="linea"></div>
+</button>-->
+
 `;
 
 export function Crearheader(){
