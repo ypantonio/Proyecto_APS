@@ -1,6 +1,7 @@
 export let footer = document.createElement("div");
 footer.innerHTML = `
 
+
 <section class="infofood">
 <div class="infofood">
     <div class="ventana">
@@ -13,7 +14,6 @@ footer.innerHTML = `
                 (CONGA), con el apoyo de Nutrición Centro América y Panamá(INCAP).
                 </p>
         </div>
-
     </div>
     <div class="derecha">
         <img  class="img_personaje" src="./img/personaje de la pared 1.png" alt="">
@@ -31,17 +31,23 @@ footer.innerHTML = `
                  ellos todos los dias.
              </p>
     </div>
-    <div class="cuadrover">
-        <ul class="lista">
-            <li><a id="inicio" class="hijoOption">• Granos (llegumbre), cereales y papas (patatas)</a></li>
-            <li><a class="hijoOption">• Hierbas y verduras</a></li>
-            <li><a class="hijoOption">• Frutas por lo menos, 1 vez/semana</a></li>
-            <li><a class="hijoOption">• Carnes por lo menos, 2 veces/semana</a></li>
-            <li><a class="hijoOption">• leche y derivados con moderación</a></li>
-            <li><a class="hijoOption">• azúcar  y grasas </a></li>
-       </ul>
+    <div class="cuadrover abajo">
+        <div class="chica">
+            <img class="recostada" src="./img/personaje acostado 1.png" alt="">
+        </div>
+        <div class="la_lista">
+            <ul class="lista">
+                <li><a id="inicio" class="hijoOption">• Granos (llegumbre), cereales y papas (patatas)</a></li>
+                <li><a class="hijoOption">• Hierbas y verduras</a></li>
+                <li><a class="hijoOption">• Frutas por lo menos, 1 vez/semana</a></li>
+                <li><a class="hijoOption">• Carnes por lo menos, 2 veces/semana</a></li>
+                <li><a class="hijoOption">• leche y derivados con moderación</a></li>
+                <li><a class="hijoOption">• azúcar  y grasas </a></li>
+            </ul>
+        </div>
     </div>
 </section>
+
 
 `;
 

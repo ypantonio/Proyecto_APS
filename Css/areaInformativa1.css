@@ -4,8 +4,7 @@
         height: auto;
         justify-content: center;
         align-items: center;
-        margin-top: 3rem;
-
+        margin-top: 2rem;
     }
     .area{
         width: 100%;
@@ -15,15 +14,16 @@
         justify-content: center;
     }
     .Img1{
-        width: 48%;
+        width: 48rem;
     }
     .paraTexto{
         width: 60%;
-        padding: 4.5%;
+        padding: 4%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
     }
 
     .titulo{
@@ -43,15 +43,17 @@
         line-height: 37px;
         letter-spacing: 0em;
         text-align:justify;
+
     }
     .largo{
         background-image: url("https://i.postimg.cc/xCcnTk2p/amarill.png");
         background-repeat: no-repeat;
         background-size: cover;
         padding-bottom: 20rem;
+
     }
     .CuadroImg{
-        width: 85%;
+        width: 80%;
         margin-right: 200rem;
         height:40rem;
         margin: auto;
@@ -59,24 +61,24 @@
         display:flex;
         flex-direction: row;
         justify-content: space-between;
-
     }
     .ImgFrente{
         width: 50%;
     }
     .ImgFrente2{
         width: 50%;
-
-        
+    }
+    .img2_visible{
+        display: none;
     }
     .TextoEncima{
         width: 90%;
         height: auto;
-        padding: 1.5%;
+        padding: 1%;
+
         margin: auto;
         font-family: 'Didact Gothic', sans-serif;
         margin-top: -15rem;
-
     }  
     .parrafo2{
         font-family: 'Didact Gothic', sans-serif;
@@ -86,4 +88,67 @@
         letter-spacing: 0em;
         text-align:justify;
     }  
+}
+@media screen and  (max-width:37.5rem){
+    .Info{
+       margin-top: 2rem; 
+    }
+    
+    .area{
+        width: 100%;
+        margin-top: -40px; 
+       }
+
+    .Img1{
+    display: none;    
+}
+    .paraTexto{
+        width: 90rem;
+        margin: auto;
+        background-color: var(--blanco);
+        border-radius: 23px 23px 0px 0px;
+
+    }
+    .titulo{
+        font-size: 24px;
+    }
+    .Info .parrafo, .parrafo2{
+        font-size: 19px;
+    }
+    .largo{
+        background-image: none;
+    }
+    .CuadroImg{
+        flex-direction: column-reverse;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .Info .TextoEncima{
+        width: 94%;
+    }
+    .img2{
+        display: none;
+    }
+    .ImgFrente2{
+        width: 80%;
+    }
+    .img2_visible{
+        display: flex;
+        flex-direction: column-reverse;
+        background-image: url(../img/Group\ 33\ \(1\).png);
+        width: 100%;
+        height: 40rem;
+        justify-content: center;
+        align-items: center;
+        margin-top: -12rem;
+    }
+    .img2V{
+        margin-top: 10rem;
+        width: 80%;
+        display: flex;
+
+    }
+
 }

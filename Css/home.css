@@ -6,14 +6,11 @@ body{
 .vector{
     width: 100%;
     height: auto;
-    background-image: url(../img/Manchas\ 1\ 1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 0px 5rem;
+    padding: 0px 4rem;
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 .el-titulo{
     width: 50%;
@@ -38,3 +35,26 @@ body{
     width: 100%;
 }
 
+@media screen and  (max-width:37.5rem){
+
+.sect .vector{
+    padding-left: 8.2rem;
+
+}
+.vector{
+        width: 100%;
+        height: 400px;
+}
+.titulo1{
+    display: none;   
+}
+.la-img{
+    width: 1300rem;
+    height: 100%;
+    margin-left: -20%;
+}
+.cocina{
+    width: 38.4rem;
+}
+
+}
