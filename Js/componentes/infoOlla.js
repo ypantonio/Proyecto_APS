@@ -1,5 +1,5 @@
-export let footer = document.createElement("div");
-footer.innerHTML = `
+export let OllaAlimento = document.createElement("div");
+OllaAlimento.innerHTML = `
 
 
 <section class="infofood">
@@ -52,7 +52,7 @@ footer.innerHTML = `
 `;
 
 
-export function CrearFooter(){
-    let div_footer = document.querySelector("#footer");
-    div_footer.appendChild(footer);
+export function CrearOlla(){
+    let div_olla = document.querySelector("#Olla");
+    div_olla.appendChild(OllaAlimento);
 }

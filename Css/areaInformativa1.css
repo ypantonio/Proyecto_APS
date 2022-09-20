@@ -138,6 +138,8 @@
         display: flex;
         flex-direction: column-reverse;
         background-image: url(../img/Group\ 33\ \(1\).png);
+        background-repeat: no-repeat;
+        background-size: cover;
         width: 100%;
         height: 40rem;
         justify-content: center;
