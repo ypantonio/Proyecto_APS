@@ -11,3 +11,9 @@ AñadirInfo();
 import {CrearOlla} from "./componentes/infoOlla.js";
 CrearOlla();
 
+import {Crearnutrientes} from "./componentes/infoOlla.js";
+Crearnutrientes();
+
+/** INFORMACIÓN SOBRE EL EQUIPO DE HEALTHY WAY**/
+import {Craerfooter} from "./componentes/footer.js";
+Craerfooter();

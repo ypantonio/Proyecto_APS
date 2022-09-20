@@ -27,7 +27,7 @@
     }
 
     .titulo{
-        font-family: Fredoka One;
+        font-family: 'Fredoka One', cursive;
         font-size: 40px;
         font-weight: 400;
         line-height: 77px;
@@ -53,7 +53,7 @@
 
     }
     .CuadroImg{
-        width: 80%;
+        width: 70%;
         margin-right: 200rem;
         height:40rem;
         margin: auto;

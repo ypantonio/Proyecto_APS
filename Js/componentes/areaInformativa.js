@@ -13,7 +13,7 @@ datos.innerHTML =
 </div>
 <div class="area largo">
 <div class="CuadroImg">
-    <img class="ImgFrente img2" src="./img/Olla-alimentaria.png" alt="">
+    <img class="ImgFrente img2" src="./img/Olla alimentaria 1.png" alt="">
     <img class="ImgFrente2" src="./img/Group-23.png" alt="">
 </div>
 </div>
