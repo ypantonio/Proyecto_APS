@@ -2,7 +2,6 @@
 export let datos = document.createElement("div");
 datos.innerHTML = 
 `
-
 <div class="area">
 <div class="paraTexto">
     <h1 class="titulo">¿Qué es la bromatología?</h1>
@@ -12,14 +11,12 @@ datos.innerHTML =
 </div>
 <img class="Img1" src="./img/bromatolog-a-1.png" alt="">
 </div>
-
 <div class="area largo">
 <div class="CuadroImg">
     <img class="ImgFrente img2" src="./img/Olla-alimentaria.png" alt="">
     <img class="ImgFrente2" src="./img/Group-23.png" alt="">
 </div>
 </div>
-
 <div class="TextoEncima">
     <p class="parrafo2">
         Es un instrumento para orientar a la población sobre cómo nutrirse saludablemente, es una de las guías alimentarias. En el caso de Guatemala, las recomendaciones se resumen en la figura de una olla. La olla alimentaria posee 6 niveles de alimentos, en donde podemos encontrar los alimentos que se cultivan en Guatemala y el por qué es importante comerlas con frecuencia.
@@ -29,8 +26,6 @@ datos.innerHTML =
     </div>
 </div>
 </div>
-
-
 `;
 
 export function AñadirInfo(){

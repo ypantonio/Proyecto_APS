@@ -5,7 +5,6 @@
 export let back = document.createElement("div");
 back.innerHTML = 
 `
-
 <!--ESTE ES EL HEADER-->
 <header id="header" class="header">
     <div class="menu_principal">
@@ -36,7 +35,6 @@ back.innerHTML =
 </header>
 <!--AQUÍ TERMINA EL HEADER-->
    
-
 `;
 
 export function Crearfondo(){

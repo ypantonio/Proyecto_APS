@@ -1,5 +1,5 @@
 /*PAra footer*/
-#infoOlla {
+#Olla {
     width: 100%;
     height: auto;
     padding-top: 8rem;
@@ -146,7 +146,7 @@
     
     @media only screen and (max-width:37.5rem) {
         
-    #infoOlla{
+    #Olla{
         padding-top: 3rem;
     }
     .infofood{

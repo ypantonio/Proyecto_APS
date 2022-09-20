@@ -1,7 +1,6 @@
-export let infoOlla = document.createElement("div");
-infoOlla.innerHTML = `
-
-
+export let OllaAlimento = document.createElement("div");
+OllaAlimento.innerHTML = 
+`
 <section class="infofood">
 <div class="infofood">
     <div class="ventana">
@@ -47,12 +46,10 @@ infoOlla.innerHTML = `
         </div>
     </div>
 </section>
-
-
 `;
 
 
 export function CrearOlla(){
-    let div_olla = document.querySelector("#infoOlla");
-    div_olla.appendChild(infoOlla);
+    let div_olla = document.querySelector("#Olla");
+    div_olla.appendChild(OllaAlimento);
 }
