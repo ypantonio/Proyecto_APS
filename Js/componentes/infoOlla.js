@@ -1,6 +1,8 @@
 export let OllaAlimento = document.createElement("div");
 OllaAlimento.innerHTML = 
-`
+ `
+
+
 <section class="infofood">
 <div class="infofood">
     <div class="ventana">

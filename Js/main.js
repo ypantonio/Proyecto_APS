@@ -10,3 +10,4 @@ AñadirInfo();
 /*MUESTRA PARTE DE BRYAN HERNADEZ*/
 import {CrearOlla} from "./componentes/infoOlla.js";
 CrearOlla();
+
