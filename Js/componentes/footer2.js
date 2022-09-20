@@ -5,7 +5,7 @@
 export function footer (){
     let footer = document.querySelector("#footer");
   
-    footer.innerHTML = 
+   footer.innerHTML = 
      /*SEGUNDA SECCION INFORMACION EXTRA */
     '<section class="infoInfood">'+
     '<div class="infoInfood">' +

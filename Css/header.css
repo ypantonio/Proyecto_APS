@@ -1,62 +1,97 @@
-
 /*****PARTE DE HEADER YASMIN ANTONIO****/
 *{
     margin: 0px;
     padding: 0px;
     text-decoration: none;
     box-sizing: border-box;
-    
     font-size: 17px;
-    max-width: 1366px ;
     font-family: 'Didact Gothic', sans-serif;;
 }
-header{
-    height: 10rem;
+.sect{
+    width: 100%;
+    height: auto;
+}
+.header{
+    width: 100%;
+    height: auto;
+    padding: 16px; 
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    padding: 16px;
-
-
-  
-    
+    align-items: center;
+    background-image: url(../img/Manchas\ 1\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu_principal{
+    width:97vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .logo{
     width: 73px;
     height: 73px;
-    margin: 0;
 }
 .nav{
     list-style: none;
-    margin: 0;
-    padding: 0;
     display: flex;
-    margin-left: 83rem;
-    margin-top: -6rem;
+    width: 100%;
+    justify-content: end;
+    padding: 1%;
+}
+.para_menu{
+    width: 70%;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
-a{
+.para_img{
+    width: 30%;
+}
+.a{
     padding: 0px 16px ;
     color: #000000;
     
 }
 
-a:hover{
+.a:hover{
     background-color: var(--amarillo);
     border-radius: 2rem;
     padding: 10px 25px 10px 25px ;
     transition: 0.8s;
 }
-/*@media screen and  (min-width:37.5rem){
-    .boton{
+/*PARA TELEFONO*/
+@media screen and  (max-width:37.5rem){
+    /*.boton{
         display: none;
+    }*/
+    *{
+        font-size: 10px;
     }
-    .nav{
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        margin-left: 83rem;
-        margin-top: -6rem;
+    .menu_principal{
+        margin-top: 4%;
+    }
+    .logo{
+        width: 40px;
+        height: 40px;
+
+    }
+    .para_menu{
+        width: 90%;
+    }
+    .para_img{
+        width: 10%;
+    }
+    .header{
+        padding: 0px;
+        justify-content: center;
         align-items: center;
     }
-}*/
+    .general{
+        margin: 0px;
+    }
+
+
+}
+
