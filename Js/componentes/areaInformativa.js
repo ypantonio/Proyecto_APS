@@ -13,9 +13,11 @@ datos.innerHTML =
 </div>
 
 <div class="area largo">
-<div class="CuadroImg">
-    <img class="ImgFrente img2" src="./img/Olla-alimentaria.png" alt="">
-    <img class="ImgFrente2" src="./img/Group-23.png" alt="">
+<div class="CImg">
+    <div class="ParaImg">
+        <img class="Frente img2Olla" src="./img/Olla.png" alt="">
+        <img class="ImgFrente2" src="./img/Group-23.png" alt="">
+    </div>
 </div>
 </div>
 
@@ -28,6 +30,7 @@ datos.innerHTML =
     </div>
 </div>
 </div>
+
 
 `;
 
