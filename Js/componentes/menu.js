@@ -20,7 +20,7 @@ menu.innerHTML =
         </div>
     </div>
     <div class="titulo_proteina">
-        <h2 class="tituloParaProteina">Proteinas</h2>
+        <h2 class="tituloParaProteina">Proteínas</h2>
     </div>
 </header>
 <!--AQUÍ TERMINA EL HEADER-->
