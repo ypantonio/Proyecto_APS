@@ -63,7 +63,7 @@ nutriente.innerHTML =
 
 `
 <div class="title1">
-        <h2 class="title2">PORCENTAJES DE NUTRIENTES <br> NECESARIOS PARA EL ORGANISMO</h2>
+        <h2 id="Estadisticas" class="title2">PORCENTAJES DE NUTRIENTES <br> NECESARIOS PARA EL ORGANISMO</h2>
     </div>
     <div class="nutrientes">
             <div>
@@ -83,7 +83,7 @@ nutriente.innerHTML =
                 </ul>
                 <p class="nota">NOTA: La cantidad/porcentajes de vitaminas varían según el cuerpo de cada persona.</p>
             </div>
-            <div class="esencial">
+            <div id="Nutrientes" class="esencial">
                 <!-- TITULO DE NUTRIENTES ESENCIALES -->
                 <div class="caja-titulo"> 
                     <h1 class="titleEsen">

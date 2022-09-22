@@ -11,10 +11,10 @@ menu.innerHTML =
         </div>
         <div class="para_menu">
             <ul class="nav">
-                <li> <a id="inicia" class="inicia a" href="#"> Inicio </a>  </li>
-                <li> <a class="carbo a" href="#"> Olla alimentaria</a>  </li>
-                <li> <a class="calor a" href="#"> Estadísticas</a>  </li>
-                <li> <a class="lipi a" href="#"> Nutrientes</a>
+                <li> <a id="inicia" class="inicia a" href="./index.html"> Inicio </a>  </li>
+                <li> <a class="carbo a" href="./index.html#Olla-Alimentaria"> Olla alimentaria</a>  </li>
+                <li> <a class="calor a" href="./index.html#Estadisticas"> Estadísticas</a>  </li>
+                <li> <a class="lipi a" href="./index.html#Nutrientes"> Nutrientes</a>
                 </li>
             </ul>
         </div>
