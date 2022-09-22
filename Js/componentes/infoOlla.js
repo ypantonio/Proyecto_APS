@@ -117,7 +117,7 @@ nutriente.innerHTML =
                     <img src="./img/proteínas 1.png" alt="" class="img2">
                     <h3 class="subtitle2">Proteínas</h3>
                     <p class="descrip2">Formadas por muchos aminoácidos <br> diferentes unidos entre sí.</p><br>
-                    <a class="mas" href="/proteina.html"> Ver más </a>
+                    <a class="mas" href="./proteina.html"> Ver más </a>
                 </div>
             
                 <!-- SECCIÓN DE VITAMINAS-->
