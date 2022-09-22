@@ -1,0 +1,39 @@
+.para_video{
+    width: 100%;
+    margin: auto;
+    padding: 5%;
+    background-image: url(../img/Group_58.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.elementosV1{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor_video {
+    width: 60%;
+
+}
+.video1{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+.contenedor_personaje{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sentadoDialogo{
+    width: 90%;
+}
