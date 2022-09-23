@@ -8,9 +8,8 @@ alimentos_pro.innerHTML =
     <div class="ConoceP">
         <h1 class="titulo"> Conoce algunos alimentos <br> ricos en proteína</h1>
     </div>
+   
 </section>
-
-
 `;
 
 export function CrearAlimentosPro(){
