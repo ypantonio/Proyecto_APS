@@ -4,6 +4,7 @@
 export let pro = document.createElement("div");
 pro.innerHTML = 
 `
+<!--SECCIÓN BRYAN HERNANDEZ-->
 
 <!--SECCIÓN KAREN VALDES-->
 <section class="para_video">
