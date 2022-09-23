@@ -6,7 +6,7 @@
     text-decoration: none;
     box-sizing: border-box;
     font-size: 17px;
-    font-family: 'Didact Gothic', sans-serif;;
+    font-family: 'Didact Gothic', sans-serif;
 }
 .header{
     width: 100%;
@@ -18,6 +18,19 @@
     padding: 16px; 
     display: flex;
     background-color: var(--amarillo);
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.para_header2{
+    width: 100%;
+    height: 50rem;
+    padding: 16px; 
+    display: flex;
+    background-color: var(--verde);
     flex-direction: column;
     justify-content: space-between;
     align-items: center;

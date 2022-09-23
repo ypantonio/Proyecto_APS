@@ -100,7 +100,7 @@ nutriente.innerHTML =
                     <p class="descrip1">Una de las fuentes más importantes  <br>
                         de energía para nuestro.
                     </p><br>
-                    <a class="mas1"> Ver más </a>
+                    <a class="mas1" href="./carbohidratos.html"> Ver más </a>
                     <img src="./img/Carbohidratos 1.png" alt="" class="img1">
                 </div>
 

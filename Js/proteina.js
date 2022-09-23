@@ -9,3 +9,6 @@ CrearProteina();
 /*MUESTRA ALIMETOS RICOS EN PROTEINAS*/
 import { CrearAlimentosPro } from "./componentes/alimetosProteinas.js";
 CrearAlimentosPro();
+
+/** INFORMACIÓN SOBRE EL EQUIPO DE HEALTHY WAY / FOOTER**/
+

@@ -1,4 +1,4 @@
-.alimentosP{
+.alimentosC{
     width: 100%;
     height: auto;
     display: flex;
@@ -7,14 +7,15 @@
     margin-bottom: 2%;
    
 }
-.ConoceP{
+.ConoceC{
     width: 90%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.titulo{
+.tituloC{
+    font-family:'Fredoka One', cursive;
     font-size: 64px;
     text-align: center;
 }
