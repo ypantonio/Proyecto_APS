@@ -13,10 +13,10 @@ back.innerHTML =
         </div>
         <div class="para_menu">
             <ul class="nav">
-                <li> <a id="inicia" class="inicia a" href="#"> Inicio </a>  </li>
-                <li> <a class="olla a" href="#"> Olla alimentaria</a>  </li>
-                <li> <a class="esta a" href="#"> Estadísticas</a>  </li>
-                <li> <a class="nutri a" href="#"s> Nutrientes</a>  </li>
+                <li> <a id="inicia" class="inicia a" href="./index.html"> Inicio </a>  </li>
+                <li> <a class="olla a" href="#Olla-Alimentaria"> Olla alimentaria</a>  </li>
+                <li> <a class="esta a" href="#Estadisticas"> Estadísticas</a>  </li>
+                <li> <a class="nutri a" href="#Nutrientes"s> Nutrientes</a>  </li>
             </ul>
         </div>
     </div>

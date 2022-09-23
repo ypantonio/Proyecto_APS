@@ -1,0 +1,15 @@
+.alimentosP{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.ConoceP{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -52,7 +52,7 @@
         padding-bottom: 20rem;
 
     }
-    .CuadroImg{
+    .CImg{
         width: 70%;
         margin-right: 200rem;
         height:40rem;
@@ -62,7 +62,13 @@
         flex-direction: row;
         justify-content: space-between;
     }
-    .ImgFrente{
+    .ParaImg{
+        width: 100%;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .Frente{
         width: 50%;
     }
     .ImgFrente2{
@@ -118,7 +124,7 @@
     .largo{
         background-image: none;
     }
-    .CuadroImg{
+    .CImg{
         flex-direction: column-reverse;
         width: 100%;
         height: auto;
@@ -128,7 +134,7 @@
     .Info .TextoEncima{
         width: 94%;
     }
-    .img2{
+    .img2Olla{
         display: none;
     }
     .ImgFrente2{

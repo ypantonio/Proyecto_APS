@@ -63,7 +63,7 @@ nutriente.innerHTML =
 
 `
 <div class="title1">
-        <h2 class="title2">PORCENTAJES DE NUTRIENTES <br> NECESARIOS PARA EL ORGANISMO</h2>
+        <h2 id="Estadisticas" class="title2">PORCENTAJES DE NUTRIENTES <br> NECESARIOS PARA EL ORGANISMO</h2>
     </div>
     <div class="nutrientes">
             <div>
@@ -83,7 +83,7 @@ nutriente.innerHTML =
                 </ul>
                 <p class="nota">NOTA: La cantidad/porcentajes de vitaminas varían según el cuerpo de cada persona.</p>
             </div>
-            <div class="esencial">
+            <div id="Nutrientes" class="esencial">
                 <!-- TITULO DE NUTRIENTES ESENCIALES -->
                 <div class="caja-titulo"> 
                     <h1 class="titleEsen">
@@ -117,7 +117,7 @@ nutriente.innerHTML =
                     <img src="./img/proteínas 1.png" alt="" class="img2">
                     <h3 class="subtitle2">Proteínas</h3>
                     <p class="descrip2">Formadas por muchos aminoácidos <br> diferentes unidos entre sí.</p><br>
-                    <a class="mas" href="/proteina.html"> Ver más </a>
+                    <a class="mas" href="./proteina.html"> Ver más </a>
                 </div>
             
                 <!-- SECCIÓN DE VITAMINAS-->
