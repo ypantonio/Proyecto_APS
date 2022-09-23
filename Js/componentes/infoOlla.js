@@ -2,8 +2,7 @@ export let OllaAlimento = document.createElement("div");
 OllaAlimento.innerHTML = 
 /**INFORMACIÓN INICIAL POR BRYAN HERNÁNDEZ**/
  
- `
- <section class="infofood">
+ `<section class="infofood">
 <div class="infofood">
     <div class="ventana">
         <div class="izquierda">
@@ -90,7 +89,7 @@ nutriente.innerHTML =
     </div>
 </div>                
 </div>
-        <div id="Nutrientes" class="esencial">
+    <div id="Nutrientes" class="esencial">
         
            <!--  TITULO DE NUTRIENTES ESENCIALES -->
             <div class="caja-titulo"> 
@@ -103,41 +102,41 @@ nutriente.innerHTML =
 
         <!--SECCIÓN DE VÍDEOS -->
             <!-- SECCIÓN CARBOHIDRATOS -->
-            <div class="carbohidratos">
-                <h3 class="subtitle1">Carbohidratos</h3>
-                <p class="descrip1">Una de las fuentes más importantes  <br>
-                    de energía para nuestro.
-                </p><br>
-                <a class="mas1" href="./carbohidratos.html"> Ver más </a>
-                <img src="./img/Carbohidratos 1.png" alt="" class="img1">
-            </div>
-
-            <!--SECCIÓN LÍPIDOS-->
-            <div class="lipidos">
-                <h3 class="subtitle1">Lípidos</h3>
-                <p class="descrip1">De crucial importancia para el <br>almacenamiento de energía.</p><br>
-                <a class="mas1"> Ver más </a>
-                <img src="./img/Lípidos 1.png" alt="" class="img1">
-            </div>
-
-        <!--SECCIÓN PROTEÍNAS-->
-        <div class="proteinas">
-                <img src="./img/proteínas 1.png" alt="" class="img2">
-                <h3 class="subtitle2">Proteínas</h3>
-                <p class="descrip2">Formadas por muchos aminoácidos <br> diferentes unidos entre sí.</p><br>
-                <a class="mas" href="./proteina.html"> Ver más </a>
-            </div>
-        
-            <!-- SECCIÓN DE VITAMINAS-->
-            <div class="vitaminas">
-                <img src="./img/vitaminas 1.png" alt="" class="img2">
-                <h3 class="subtitle2">Vitaminas</h3>
-                <p class="descrip2"> Los pequeños nutrientes que nos <br> dan vida. </p><br>
-                <a class="mas"> Ver más </a>
-            </div>
+        <div class="para_videos">
+                <div class="carbohidratos">
+                    <h3 class="subtitle1">Carbohidratos</h3>
+                    <p class="descrip1">Una de las fuentes más importantes  <br>
+                        de energía para nuestro.
+                    </p><br>
+                    <a class="mas1" href="./carbohidratos.html"> Ver más </a>
+                    <img src="./img/Carbohidratos 1.png" alt="" class="img1">
+                </div>
+    
+                <!--SECCIÓN LÍPIDOS-->
+                <div class="lipidos">
+                    <h3 class="subtitle1">Lípidos</h3>
+                    <p class="descrip1">De crucial importancia para el <br>almacenamiento de energía.</p><br>
+                    <a class="mas1"> Ver más </a>
+                    <img src="./img/Lípidos 1.png" alt="" class="img1">
+                </div>
+    
+            <!--SECCIÓN PROTEÍNAS-->
+            <div class="proteinas">
+                    <img src="./img/proteínas 1.png" alt="" class="img2">
+                    <h3 class="subtitle2">Proteínas</h3>
+                    <p class="descrip2">Formadas por muchos aminoácidos <br> diferentes unidos entre sí.</p><br>
+                    <a class="mas" href="./proteina.html"> Ver más </a>
+                </div>
+            
+                <!-- SECCIÓN DE VITAMINAS-->
+                <div class="vitaminas">
+                    <img src="./img/vitaminas 1.png" alt="" class="img2">
+                    <h3 class="subtitle2">Vitaminas</h3>
+                    <p class="descrip2"> Los pequeños nutrientes que nos <br> dan vida. </p><br>
+                    <a class="mas"> Ver más </a>
+                </div>
         </div>
-
-
+    </div>
 `;
 export function Crearnutrientes(){
     let div_nutriente = document.querySelector("#Olla");

@@ -5,11 +5,6 @@ export let pro = document.createElement("div");
 pro.innerHTML = 
 `
 <!--SECCIÓN BRYAN HERNANDEZ-->
-/***NO CREAR MAS COSAS EN ESTE DOCUMENTO ***/
-/**COMIENZO AREA INFORMATIVA DE PROTEINAS* */
-/**CONTIENE PARTE ASIGNADA DE BRYAN HERNANDEZ Y KAREN VALDES* */
-export let pro = document.createElement("div");
-pro.innerHTML = 
 <div class="area">
 <div class="paraTexto">
     <h1 class="titulo">¿Que son las proteínas?</h1>
@@ -18,18 +13,6 @@ pro.innerHTML =
 </div>
 <img class="Img1" src="./img/Proteinas_img1.png" alt="">
 </div>
-<!--SECCIÓN KAREN VALDES-->
-<section class="para_video">
-
-</section>
-
-`;
-
-export function CrearProteina(){
-    let div_proteina = document.querySelector("#Info_Pro");
-    div_proteina.appendChild(pro);
-}
-`
 <!--SECCIÓN KAREN VALDES-->
 <section class="para_video">
 <div class="elementosV1">

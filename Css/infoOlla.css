@@ -340,9 +340,21 @@
 .nota{
 margin-top: 1%;
 }
+/** SECCIÓN DE VIDEOS POR YASMIN ANTONIO**/
+.esencial{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    margin-bottom: 6rem;
+}
 .caja-titulo{
-    margin-left: 30rem;
-    margin-top: 18rem;
+    width: 100%;
+    margin-top: 13rem;
+    display: flex;
+    justify-content: center;
 }
 .titleEsen{
     background-color: var(--celeste);
@@ -353,19 +365,19 @@ margin-top: 1%;
     padding: 2rem 7rem 7rem 10rem;
     border-radius: 2rem;
     color: var(--blanco);
+    margin-left:3%;
 }
 .niña{
     width: 292px;
     height: 292px;
-    margin-left: 50rem;
-    margin-top: -100rem;    
+    margin-top: -7%;
+    margin-left: -14%;  
 }
-/** SECCIÓN DE VIDEOS POR YASMIN ANTONIO**/
-.esencial{
-    display: flex;
-    flex-direction: column;
-    justify-content: center ;
-    margin-bottom: 6rem;
+.para_videos{
+    width: 90%;
+    height: auto;
+    padding-bottom: 1%;
+    padding-left: 1%;
 }
 .carbohidratos{
     background-color: var(--verde);
