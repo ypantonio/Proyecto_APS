@@ -4,6 +4,7 @@
 export let pro = document.createElement("div");
 pro.innerHTML = 
 `
+<!--SECCIÓN BRYAN HERNANDEZ-->
 <div class="area">
 <div class="paraTexto">
     <h1 class="titulo">¿Que son las proteínas?</h1>

@@ -1,10 +1,8 @@
 export let OllaAlimento = document.createElement("div");
 OllaAlimento.innerHTML = 
 /**INFORMACIÓN INICIAL POR BRYAN HERNÁNDEZ**/
- `
-
-
-<section class="infofood">
+ 
+ `<section class="infofood">
 <div class="infofood">
     <div class="ventana">
         <div class="izquierda">
@@ -29,7 +27,7 @@ OllaAlimento.innerHTML =
              <h2 class="cuadrover_titulo1">¿Cómo funciona?</h2>
         </div>
              <p class="cuadro_parrafo">En la alla de Guatemala se representan seis grupos de alimentos basicos , asi como la frecunacia de consumo aconsejada, de consumo aconsejada, tanto diaria como semanal,
-             de cada uno de 
+             de cada uno de
                  ellos todos los dias.
              </p>
     </div>
@@ -49,6 +47,7 @@ OllaAlimento.innerHTML =
         </div>
     </div>
 </section>
+
 `;
 
 export function CrearOlla(){
@@ -62,39 +61,48 @@ export let nutriente = document.createElement("div");
 nutriente.innerHTML = 
 
 `
-<div class="title1">
-        <h2 id="Estadisticas" class="title2">PORCENTAJES DE NUTRIENTES <br> NECESARIOS PARA EL ORGANISMO</h2>
-    </div>
-    <div class="nutrientes">
-            <div>
-                <img src="./img/personaje sentado 1.png" alt="" class="sentado">
-                <p class="text">
-                    Según la OMS estos son los  
-                    porcentajes necesarios de los 
-                    nutrientes para el correcto  
-                    funcionamiento del  organismo:
-                </p>
-                <img src="./img/Gráfica.png" alt="" class="grafica">
-                <ul class="listaG">
-                    <li class="carboi"> Carbohidratos </li>
-                    <li class="lip"> Lípidos </li>
-                    <li class="protei"> Proteínas </li>
-                    <li class="vita"> Vitaminas </li>
-                </ul>
-                <p class="nota">NOTA: La cantidad/porcentajes de vitaminas varían según el cuerpo de cada persona.</p>
-            </div>
-            <div id="Nutrientes" class="esencial">
-                <!-- TITULO DE NUTRIENTES ESENCIALES -->
-                <div class="caja-titulo"> 
-                    <h1 class="titleEsen">
-                        NUTRIENTES 
-                        ESCENCIALES
-                    </h1>
-                    <img src="./img/niña-sentada 1.png" alt="" class="niña">
-                </div>
 
-            <!--SECCIÓN DE VÍDEOS -->
-                <!-- SECCIÓN CARBOHIDRATOS -->
+<div class="title1">
+<div class = "blancoArriba"></div>
+    <h2 id="Estadisticas" class="title2">PORCENTAJES DE NUTRIENTES <br> NECESARIOS PARA EL ORGANISMO</h2>
+<div class = "blancoAbajo"></div>
+</div>
+<div class="nutrientes">
+<div class="fondo">
+    <div class="chico_sentado"><img src="./img/personaje sentado 1.png" alt="" class="sentado">
+        <p class="text">
+            Según la OMS estos son los  
+            porcentajes necesarios de los 
+            nutrientes para el correcto  
+            funcionamiento del  organismo:
+        </p>
+    </div>
+    <div class="las-graficas">
+            <img src="./img/Gráfica.png" alt="" class="grafica">
+            <ul class="listaG">
+                <li class="carboi"> Carbohidratos </li>
+                <li class="lip"> Lípidos </li>
+                <li class="protei"> Proteínas </li>
+                <li class="vita"> Vitaminas </li>
+            </ul>
+    <p class="nota">NOTA: La cantidad/porcentajes de vitaminas varían según el cuerpo de cada persona.</p>
+    </div>
+</div>                
+</div>
+    <div id="Nutrientes" class="esencial">
+        
+           <!--  TITULO DE NUTRIENTES ESENCIALES -->
+            <div class="caja-titulo"> 
+                <h1 class="titleEsen">
+                    NUTRIENTES 
+                    ESCENCIALES
+                </h1>
+                <img src="./img/niña-sentada 1.png" alt="" class="niña">
+            </div>
+
+        <!--SECCIÓN DE VÍDEOS -->
+            <!-- SECCIÓN CARBOHIDRATOS -->
+        <div class="para_videos">
                 <div class="carbohidratos">
                     <h3 class="subtitle1">Carbohidratos</h3>
                     <p class="descrip1">Una de las fuentes más importantes  <br>
@@ -103,7 +111,7 @@ nutriente.innerHTML =
                     <a class="mas1" href="./carbohidratos.html"> Ver más </a>
                     <img src="./img/Carbohidratos 1.png" alt="" class="img1">
                 </div>
-
+    
                 <!--SECCIÓN LÍPIDOS-->
                 <div class="lipidos">
                     <h3 class="subtitle1">Lípidos</h3>
@@ -111,8 +119,8 @@ nutriente.innerHTML =
                     <a class="mas1"> Ver más </a>
                     <img src="./img/Lípidos 1.png" alt="" class="img1">
                 </div>
-
-            <!--SECCIÓN PROTEÍNAS--> 
+    
+            <!--SECCIÓN PROTEÍNAS-->
             <div class="proteinas">
                     <img src="./img/proteínas 1.png" alt="" class="img2">
                     <h3 class="subtitle2">Proteínas</h3>
@@ -127,7 +135,7 @@ nutriente.innerHTML =
                     <p class="descrip2"> Los pequeños nutrientes que nos <br> dan vida. </p><br>
                     <a class="mas"> Ver más </a>
                 </div>
-            </div>
+        </div>
     </div>
 `;
 export function Crearnutrientes(){
