@@ -10,7 +10,6 @@ pro.innerHTML =
 /**CONTIENE PARTE ASIGNADA DE BRYAN HERNANDEZ Y KAREN VALDES* */
 export let pro = document.createElement("div");
 pro.innerHTML = 
-`
 <div class="area">
 <div class="paraTexto">
     <h1 class="titulo">¿Que son las proteínas?</h1>
@@ -30,7 +29,7 @@ export function CrearProteina(){
     let div_proteina = document.querySelector("#Info_Pro");
     div_proteina.appendChild(pro);
 }
-
+`
 <!--SECCIÓN KAREN VALDES-->
 <section class="para_video">
 <div class="elementosV1">
