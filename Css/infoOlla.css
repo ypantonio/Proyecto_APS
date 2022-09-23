@@ -327,6 +327,12 @@
     margin-top: -100rem;    
 }
 /** SECCIÓN DE VIDEOS POR YASMIN ANTONIO**/
+.esencial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    margin-bottom: 6rem;
+}
 .carbohidratos{
     background-color: var(--verde);
     width: 580px;
