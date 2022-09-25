@@ -1,5 +1,5 @@
 /*ESTA ES LA BASE DEL HEADER*/
-@media screen and  (max-width:136.5rem){
+@media (max-width:136.5rem){
 *{
     margin: 0px;
     padding: 0px;
@@ -93,9 +93,9 @@
     color: var(--blanco);
 }
 }
-@media screen and  (max-width:37.5rem){
+@media (max-width:37.5rem){
 
-    .tituloParaProteina{
+    .para_header .tituloParaProteina{
         color: violet;
     }
 

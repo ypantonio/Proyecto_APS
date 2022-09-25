@@ -62,7 +62,7 @@
     transition: 0.8s;
 }
 /*PARA TELEFONO*/
-@media screen and  (max-width:37.5rem){
+@media (max-width:37.5rem){
     /*.boton{
         display: none;
     }*/

@@ -1,4 +1,4 @@
-@media screen and  (max-width:136.5rem){
+@media (max-width:136.5rem){
     .Info{
         width: 100%;
         height: auto;
@@ -70,6 +70,7 @@
     }
     .Frente{
         width: 50%;
+
     }
     .ImgFrente2{
         width: 50%;
@@ -95,7 +96,7 @@
         text-align:justify;
     }  
 }
-@media screen and  (max-width:37.5rem){
+@media (max-width:37.5rem){
     .Info{
        margin-top: 2rem; 
     }
@@ -138,7 +139,7 @@
         display: none;
     }
     .ImgFrente2{
-        width: 80%;
+        width: 90%;
     }
     .img2_visible{
         display: flex;

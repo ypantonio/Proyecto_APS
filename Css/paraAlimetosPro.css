@@ -18,6 +18,20 @@
     font-size: 63px;
     text-align: center;
     font-family: Fredoka One;
-    display:none;
+
+}
+.InfoAlimento{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:3%;
+}
+.contenido_pro{
+    width: 90rem;
+    height: 50rem;
+    border-radius: 25px;
+    background-color: rgb(232, 208, 53); 
 
 }

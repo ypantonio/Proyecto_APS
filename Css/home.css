@@ -35,7 +35,7 @@ body{
     width: 100%;
 }
 
-@media screen and  (max-width:37.5rem){
+@media (max-width:37.5rem){
 
     .sect .vector{
         padding-left: 8.2rem;

@@ -153,95 +153,6 @@
         display: none;
     }
    
-    @media only screen and (max-width:37.5rem) {
-       
-    #Olla{
-        padding-top: 3rem;
-    }
-    .infofood{
-        padding-top: 1rem;
-
-
-    }
-    .ventana{
-        width: 21rem;
-        height: 20rem;
-        padding: 4%;
-        border-radius: 15px;
-        justify-content: center;
-
-    }
-    .ventana_barra{
-        width: 100%;
-        height: 30px;
-        margin-top: 3%;
-        text-align: center;
-    }
-    .ventana_titulo, .cuadro_parrafo{
-        font-size: 14px;
-        text-align: justify;
-        }
-    .ventana_titulo1{
-        font-size: 16px;
-    }
-    .derecha{
-        margin-left: -0.7rem;
-        margin-top: 2.5rem;
-    }
-    .img_personaje{
-        width: 13rem;
-    }
-    .cuadrover{
-        display: none;
-    }
-    .cuadro{
-        width: 90%;
-        height: 17rem;
-        border-radius: 15px;
-        padding: 4%;
-
-   
-    }
-    .padreFooter{
-        width: 100%;
-        height: auto;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .cuadro_barra{
-        width: 100%;
-        height: 30px;
-        margin-top: 2%;
-        text-align: end;
-    }
-    .cuadrover_titulo1{
-        font-size: 18px;
-    }
-    .abajo{
-        width: 100%;
-        height: auto;
-        display: flex;
-    }
-    .cuadrover{
-        height: 24rem;
-        width: 27rem;
-        border-radius: 15px;
-        margin-top: 11%;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 5rem;
-    }
-    .chica{
-        display: flex;
-        margin-left: -5rem;
-        margin-top: -1rem;
-    }
-    .lista li{
-        width: 20rem;  
-        font-size: 25px;
-        margin-left: 1rem;    
-}
-    }
 
 /** SIGUIENTE PARTE DE INFORMACIÓN POR YASMIN ANTONIO**/
 .blancoArriba{
@@ -367,6 +278,9 @@ margin-top: 1%;
     color: var(--blanco);
     margin-left:3%;
 }
+.conCartel{
+    display: none;
+}
 .niña{
     width: 292px;
     height: 292px;
@@ -377,6 +291,11 @@ margin-top: 1%;
     width: 90%;
     height: auto;
     padding-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .carbohidratos{
     background-color: var(--verde);
@@ -384,8 +303,7 @@ margin-top: 1%;
     height: 244px;
     border-radius: 2rem;
     padding: 2rem;
-    margin-left: 7rem;
-    margin-top: 5rem;
+    margin: 2%;
 }
 .subtitle1{
     font-family: 'Fredoka One';
@@ -403,22 +321,22 @@ margin-top: 1%;
     line-height: 26px;
     margin-top: 1rem;
     margin-left: 1rem;
+    margin-bottom: 2%;
 }
 .img1{
     width: 230px;
     height: 230px;
     margin-left: 32rem;
-    margin-top: -20rem;
+    margin-top: -17rem;
 }
 .mas1{
     background-color: var(--celeste);
     width: 20rem;
     height: 5rem;
-    top: 3rem;
     margin-left: 2rem;
     padding: 1.5rem 6rem 1.5rem 6rem ;
 
-    /**TEXTO**/
+    /**TEXTO*/
     font-family: 'Fredoka One';
     font-style: normal;
     font-weight: 400;
@@ -434,8 +352,8 @@ margin-top: 1%;
     height: 244px;
     border-radius: 2rem;
     padding: 2rem;
-    margin-left: 68rem;
-    margin-top: -24.5rem;
+    margin: 2%;
+
 }
 
 .proteinas{
@@ -444,33 +362,44 @@ margin-top: 1%;
     height: 244px;
     border-radius: 2rem;
     padding: 2rem;
-    margin-left: 7rem;
-    margin-top: 3rem;
-}
-.img2{
-    width: 238px;
-    height: 253px;
-    margin-top: -2rem;
+    margin: 2%;
+
 }
 .subtitle2{
     font-family: 'Fredoka One';
     font-weight: 400;
     font-size: 30px;
     margin-top: -22rem;
-    margin-left: 38rem;
+    margin-left: 39rem;
     color: var(--blanco);
 }
-.descrip2{
+.subtitle3{
+    font-family: 'Fredoka One';
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: -22rem;
+    margin-left: 40rem;
+    color: var(--blanco);
+}
+.descrip2, .descrip3{
     font-family: var(--texto);
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 19px;
     line-height: 26px;
     margin-top: 1rem;
     margin-left: -1rem;
+    margin-right: 2%;
     text-align: end;
+    margin-bottom: 2%;
+
 }
-.mas{
+.descrip3{
+    margin-right: 5.5%;
+    font-size: 20px;
+
+}
+.mas, .masV{
     background-color: var(--celeste);
     width: 20rem;
     height: 5rem;
@@ -493,7 +422,311 @@ margin-top: 1%;
     width: 580px;
     height: 244px;
     border-radius: 2rem;
-    padding: 2rem;
-    margin-left: 68rem;
-    margin-top: -24.5rem;
+    margin: 2%;
+
 }
+.masV{
+    margin-left: 35rem;
+}
+
+@media (max-width:37.5rem) {
+       
+    /*COMIENZA RESPONSIVE DE PARTE DE BRYAN HERNANDEZ*/
+    #Olla{
+        padding-top: 3rem;
+    }
+    .infofood{
+        padding-top: 1rem;
+    }
+    .ventana{
+        width: 21rem;
+        height: 20rem;
+        padding: 4%;
+        border-radius: 15px;
+        justify-content: center;
+
+    }
+    .ventana_barra{
+        width: 100%;
+        height: 30px;
+        margin-top: 3%;
+        text-align: center;
+    }
+    .ventana_titulo, .cuadro_parrafo{
+        font-size: 14px;
+        text-align: justify;
+        }
+    .ventana_titulo1{
+        font-size: 16px;
+    }
+    .derecha{
+        margin-left: -0.7rem;
+        margin-top: 2.5rem;
+    }
+    .img_personaje{
+        width: 13rem;
+    }
+    .cuadrover{
+        display: none;
+    }
+    .cuadro{
+        width: 90%;
+        height: 20rem;
+        border-radius: 15px;
+        padding: 4%;
+
+   
+    }
+    .padreFooter{
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .cuadro_barra{
+        width: 100%;
+        height: 30px;
+        margin-top: 2%;
+        text-align: end;
+    }
+    .cuadrover_titulo1{
+        font-size: 18px;
+    }
+    .abajo{
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+    .cuadrover{
+        height: 24rem;
+        width: 27rem;
+        border-radius: 15px;
+        margin-top: 11%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: -3rem;
+    }
+    .chica{
+        display: flex;
+        margin-left: -5rem;
+        margin-top: -1rem;
+    }
+    .lista li{
+        width: 20rem;  
+        font-size: 25px;
+        margin-left: 1rem;    
+}
+/*TERMINA RESPONSIVE DE PARTE DE BRYAN HERNANDEZ*/
+
+/*COMIENZA RESPONSIVE DE PARTE DE YASMIN ANTONIO*/
+.blancoArriba{
+    height: 2rem;
+    border-radius: 0px 0px 30px 30px;
+}
+.blancoAbajo{
+    height: 2rem;
+    border-radius: 30px 30px 0px 0px;
+}
+.title2{
+    font-size: 3rem ;
+    padding: 3rem;
+}
+.fondo{
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+}
+
+.chico_sentado{
+    width: 100%;
+    height: 7rem;
+    padding-top: 0%;
+    padding: 3%;
+}
+.sentado{
+    display: none;
+}
+.text{
+    width: 90%;
+    background-color: transparent;
+    height: auto;
+    padding: 0rem;
+    padding-top: 0rem;
+    border-radius: 0rem;
+    margin-top: 0.7rem;
+    margin-left: 2rem;
+    text-align: justify;
+    font-size: 1.4rem;
+}
+.las-graficas{
+    width: 90%;
+    margin-top: 5%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.listaG{
+    width: 100%;
+    height: 5rem;
+    list-style: none;
+    padding-left: 0%;
+    padding-right: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.vita {
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+.carboi{
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+.lip{
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+.protei{
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+.nota{
+margin-top: 3%;
+font-size: 1.3rem;
+}
+
+/*COMIENZA RESPONSIVE DE VIDEOS PARTE DE YASMIN ANTONIO*/
+.esencial{
+    margin-bottom: 2rem;
+}
+.caja-titulo{
+    margin-top: 3rem;
+}
+.titleEsen{
+display: none;
+}
+.conCartel{
+    display: flex;
+    width: 80%;
+}
+.niña{
+    display: none;
+}
+.para_videos{
+    width: 95%;
+    margin-top: 8%;
+
+}
+.carbohidratos{
+    width: 100%;
+    height: 180px;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+.subtitle1{
+    font-size: 25px;
+    margin-top: 1rem;
+    margin-left: 0.4rem;
+
+}
+.descrip1{
+    font-size: 14px;
+    line-height: 26px;
+    margin-top: 1rem;
+    margin-left: 0.4rem;
+    margin-bottom: 2%;
+    
+}
+.img1, .img1C{
+    width: 150px;
+    height: 150px;
+    margin-left: 19rem;
+    margin-top: -11rem;
+}
+.img1C{
+    width: 140px;
+    height: 140px;
+    margin-top: -11rem;
+    margin-left: 20.2rem;
+}
+.mas1{
+    margin-left: 0.4rem;
+    padding: 1rem 4rem 1rem 4rem ;
+
+    /**TEXTO*/
+    font-size: 1.4rem;
+    text-align: center;
+}
+.lipidos{
+    width: 100%;
+    height: 180px;
+    border-radius: 2rem;
+    padding: 1rem;
+
+}
+
+.proteinas{
+    width: 100%;
+    height: 180px;
+    border-radius: 2rem;
+    padding: 2rem;
+
+}
+.img2{
+    width: 150px;
+    height: 150px;
+    margin-top: 3rem;
+    margin-left: -1.5rem;
+}
+.img2P{
+    width: 150px;
+    height: 150px;
+    margin-top: 2.5rem;
+    margin-left: -1rem;
+}
+.subtitle2{
+    font-size: 25px;
+    margin-top: -18rem;
+    margin-left: 20rem;
+}
+.subtitle3{
+    font-size: 25px;
+    margin-top: -18rem;
+    margin-left: 20rem;
+}
+.descrip2, .descrip3{
+    font-size: 14px;
+    line-height: 26px;
+    margin-top: 1rem;
+    margin-left: 0.4rem;
+    margin-bottom: 2%;
+
+}
+.descrip3{
+    margin-right: 0%;
+
+}
+.mas, .masV{
+    margin-left: 18rem;
+    padding: 1rem 4rem 1rem 4rem ;
+
+    /**TEXTO*/
+    font-size: 1.4rem;
+    text-align: center;
+}
+.vitaminas{
+    width: 100%;
+    height: 180px;
+    border-radius: 2rem;
+    margin: 2%;
+    padding: 2rem;
+
+
+}
+
+
+    }

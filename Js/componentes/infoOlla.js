@@ -98,6 +98,7 @@ nutriente.innerHTML =
                     ESCENCIALES
                 </h1>
                 <img src="./img/niña-sentada 1.png" alt="" class="niña">
+                <img src="./img/Cartel-con-título 2.png" class="conCartel" alt="">
             </div>
 
         <!--SECCIÓN DE VÍDEOS -->
@@ -109,7 +110,7 @@ nutriente.innerHTML =
                         de energía para nuestro.
                     </p><br>
                     <a class="mas1" href="./carbohidratos.html"> Ver más </a>
-                    <img src="./img/Carbohidratos 1.png" alt="" class="img1">
+                    <img src="./img/Carbohidratos 1.png" alt="" class="img1 img1C">
                 </div>
     
                 <!--SECCIÓN LÍPIDOS-->
@@ -130,13 +131,15 @@ nutriente.innerHTML =
             
                 <!-- SECCIÓN DE VITAMINAS-->
                 <div class="vitaminas">
-                    <img src="./img/vitaminas 1.png" alt="" class="img2">
-                    <h3 class="subtitle2">Vitaminas</h3>
-                    <p class="descrip2"> Los pequeños nutrientes que nos <br> dan vida. </p><br>
-                    <a class="mas"> Ver más </a>
+                    <img src="./img/vitaminas 1.png" alt="" class="img2 img2P">
+                    <h3 class="subtitle3">Vitaminas</h3>
+                    <p class="descrip3"> Los pequeños nutrientes que nos <br> dan vida. </p><br>
+                    <a class="masV"> Ver más </a>
                 </div>
         </div>
     </div>
+
+
 `;
 export function Crearnutrientes(){
     let div_nutriente = document.querySelector("#Olla");
