@@ -619,6 +619,8 @@ display: none;
 .para_videos{
     width: 95%;
     margin-top: 8%;
+    flex-wrap:none
+    ;
 
 }
 .carbohidratos{
@@ -654,8 +656,8 @@ display: none;
     margin-left: 20.2rem;
 }
 .mas1{
-    margin-left: 0.4rem;
-    padding: 1rem 3rem 1rem 3rem ;
+    margin-left: 0rem;
+    padding: 1rem 4rem 1rem 4rem ;
 
     /**TEXTO*/
     font-size: 1.4rem;
@@ -712,7 +714,7 @@ display: none;
 }
 .mas, .masV{
     margin-left: 18rem;
-    padding: 1rem 3rem 1rem 3rem ;
+    padding: 1rem 4rem 1rem 4rem ;
 
     /**TEXTO*/
     font-size: 1.4rem;
