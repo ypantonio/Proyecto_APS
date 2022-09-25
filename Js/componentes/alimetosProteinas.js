@@ -5,6 +5,7 @@ alimentos_pro.innerHTML =
 `
 
 <section class="alimentosP">
+<<<<<<< HEAD
 <div class="ConoceP">
     <h1 class="tituloA"> Conoce algunos alimentos <br> ricos en proteína</h1>
 </div>
@@ -16,6 +17,13 @@ alimentos_pro.innerHTML =
 </div>
 
 
+=======
+    <div class="ConoceP">
+        <h1 class="tituloA"> Conoce algunos alimentos <br> ricos en proteína</h1>
+    </div>
+   
+</section>
+>>>>>>> 928e2154de60e13592c7a8413f44bb286e51ec42
 `;
 
 export function CrearAlimentosPro(){
