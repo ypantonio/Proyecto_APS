@@ -1,4 +1,14 @@
 .alimentocar{
+    width: 40%;
+    height: 40%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+   
+}
+.alimentosC{
     width: 100%;
     height: auto;
     display: flex;
@@ -15,12 +25,49 @@
     align-items: center;
 }
 .tituloC{
-    font-family:'Fredoka One', cursive;
-    font-size: 64px;
+    font-size: 63px;
     text-align: center;
+    font-family: Fredoka One;
+    margin-bottom: 2%;
+
+}
+.tituloD{
     display: none;
 }
+.InfoAlimento{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:3%;
+}
+.contenido_pro{
+    width: 90rem;
+    height: 50rem;
+    border-radius: 25px;
+    background-color: rgb(36, 185, 41); 
+
+}
 @media (max-width:37.5rem){
+    .tituloC{
+        display: none;
+}
+
+    .tituloD{
+        display: flex;
+        font-size: 35px;
+        text-align: center;
+        font-family: Fredoka One;
+    }
+    .contenido_pro{
+        width: 90rem;
+        height: 50rem;
+        margin: 5%;
+        border-radius: 25px;
+        background-color: rgb(74, 232, 53); 
+    
+    }
     .alimentocar{
         display: none;
     }

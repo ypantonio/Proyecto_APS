@@ -71,7 +71,7 @@
     height: auto;
     margin-bottom: 8%;
 }
-.tituloParaProteina{
+.tituloParaProteina, .tituloParacarbo{
     font-family: Fredoka One;
     font-size: 128px;
     font-weight: 400;
@@ -93,6 +93,9 @@
     align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.img_de_carbohidratos{
+    display: none;
 }
 @media (max-width:37.5rem){
     *{
@@ -126,15 +129,24 @@
     .tituloParaProteina{
         font-size: 50px;
     }
+    .tituloParacarbo{
+        font-size: 50px;
+    }
     .para_header{
         height: 40rem;
         justify-content: start;
     }
-    .img_de_proteinas{
+    .para_header2{
+        height: 40rem;
+        justify-content: start;
+    }
+    .img_de_proteinas, .img_de_carbohidratos{
         margin: auto;
         width: 85%;
         display: flex;
         margin-top: -20%;
     }
-
+    .img_de_carbohidratos{
+        margin-top: -1rem;
+    }
 }
