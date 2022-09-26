@@ -8,7 +8,11 @@ alimentos_pro.innerHTML =
     <div class="ConoceP">
         <h1 class="tituloA"> Conoce algunos alimentos <br> ricos en proteína</h1>
     </div>
-   
+    <div class="carousel">
+        <div id="imagen"></div>
+        <button id="retroceder">Retroceder</button>
+        <button id="avanzar">Avanzar</button>
+    </div>
 </section>
 `;
 
