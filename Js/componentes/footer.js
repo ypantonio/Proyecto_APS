@@ -66,7 +66,7 @@ export function Craerfooter(){
     let footerr = document.querySelector("#colegas");
     footerr.appendChild(footer);
 }
-/************************** */
+/************************** 
 export let footer2 = document.createElement("div");
 footer2.innerHTML = 
 `
@@ -132,4 +132,4 @@ footer2.innerHTML =
 export function creandofooter(){
     let fotter = document.querySelector("#colegas");
     fotter.appendChild(footer2);
-}
+}*/

@@ -8,6 +8,7 @@ alimentos_pro.innerHTML =
 
 <div class="ConoceP">
     <h1 class="tituloA"> Conoce algunos alimentos <br> ricos en proteína</h1>
+    <h1 class="tituloB"> Alimentos <br> ricos en proteína</h1>
 </div>
 </section>
 <!--CONTIENE INFORMACION DE ALIMENTOS RICOS EN PROTEINAS-->

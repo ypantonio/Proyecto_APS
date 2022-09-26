@@ -18,6 +18,9 @@ carbohi.innerHTML =
 </div>
 <img class="alimentocar" src="./img/carbohidrato1.png" alt="">
 </div>
+<div class="para_nutri">
+    <img src="./img/Vector_nutricionista1.png" class="nutri" alt="">
+</div>
 
 <section class="para_video2">
 <div class="elementosV2">

@@ -111,31 +111,31 @@
         font-style: normal;
         font-weight: 400;
         font-size: 1.5rem;
-
+    
         padding-top: 0rem;
         padding-left: 0rem;
-    }
+        }
     .logofooterV{
         width: 80px;
         width: 80px;
         margin-left: 1rem;
     }
     .union2{
-        width: 100%;
+         width: 100%;
         display: flex;
     }
     .biologos{
-       padding:0rem;
+        padding:0rem;
     }
     .diseñadoras{
         display: none;
-    }
+    }   
     .programadores{
         display: none;
     }
     .diseñadorasV{
         margin-left: 3rem;
-
+    
     }
     .programadoresV{
         margin-left:3rem;
@@ -147,7 +147,8 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-    
+        
         text-align: center;
     }
+
 }

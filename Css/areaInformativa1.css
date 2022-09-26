@@ -98,23 +98,23 @@
 }
 @media (max-width:37.5rem){
     .Info{
-       margin-top: 2rem; 
+        margin-top: 2rem; 
     }
-    
+        
     .area{
         width: 100%;
         margin-top: -40px; 
-       }
-
+        }
+    
     .Img1{
     display: none;    
 }
     .paraTexto{
-        width: 90rem;
+           width: 90rem;
         margin: auto;
         background-color: var(--blanco);
         border-radius: 23px 23px 0px 0px;
-
+    
     }
     .titulo{
         font-size: 24px;
@@ -135,8 +135,8 @@
     .Info .TextoEncima{
         width: 94%;
     }
-    .img2Olla{
-        display: none;
+        .img2Olla{
+           display: none;
     }
     .ImgFrente2{
         width: 90%;
@@ -144,7 +144,7 @@
     .img2_visible{
         display: flex;
         flex-direction: column-reverse;
-        background-image: url(../img/Group\ 33\ \(1\).png);
+        background-image: url(/img/Group\ 33\ \(1\).png);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
@@ -157,7 +157,7 @@
         margin-top: 10rem;
         width: 80%;
         display: flex;
-
+    
     }
 
 }

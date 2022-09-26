@@ -38,3 +38,32 @@
 .sentadoDialogo{
     width: 90%;
 }
+@media (max-width:37.5rem){
+
+    .sentadoDialogo{
+        display: none;
+    }
+    .para_video{
+        margin-top: 6%;
+        height: 100%;
+        background-image: url(../img/EsAzul.png);
+        padding-bottom: 0rem;
+    }
+    .elementosV1{
+        width: 100%;
+        height: 30rem;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedor_video {
+        width: 300rem;
+        padding: 5%;
+    
+    }
+
+    
+    }

@@ -1,49 +1,79 @@
-.Info_Carbo{
+.Info_Pro{
     width: 100%;
     height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.area{
+    width: 100%;
+    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-.area2{
-    width: 100%;
-    margin: auto;
+.Img1{
+    width: 48rem;
 }
-.alimentocar{
-    width: 536px;
-    height: 375px;
-    margin-top: -35rem;
-    margin-left: 80rem;
-   
-}
-.paraTexto2{
-    
+.paraTexto{
+    width: 50%;
     padding: 4%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
+
+}
+.paraTexto .titulo{
+    font-size: 43px;
 }
 
-.titulo2{
-    font-family:'Fredoka One', cursive;
-    font-size: 64px;
+.titulo{
+    font-family: Fredoka One;
+    font-weight: 400;
+    line-height: 77px;
     letter-spacing: 0em;
     text-align: left;
     margin-bottom: 1.5%;
-    margin-left: -15rem;
 
 }
-.parrafo2{
-    width: 380px;
-    
+.parrafo{
     font-family: 'Didact Gothic', sans-serif;
-    font-style: normal;
-    font-size: 20px;
-    text-align: justify;
-    margin-left: -55rem;
-    margin-top: 4rem;
+    font-size: 25.2px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align:justify;
+
+}
+.nutri{
+    display: none;
+}
+
+@media (max-width:37.5rem){
+
+.paraTexto{
+    width: 100%;
+    margin-top: 4%;
+    padding: 5%;
+}
+.paraTexto .titulo{
+    font-size: 27px;
+}
+.parrafo{
+    font-size: 17px;
+}
+.para_nutri{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nutri{
+    width: 70%;
+    display: flex;
+}
+
 
 }

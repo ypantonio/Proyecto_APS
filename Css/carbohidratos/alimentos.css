@@ -1,4 +1,4 @@
-.alimentosC{
+.alimentocar{
     width: 100%;
     height: auto;
     display: flex;
@@ -19,4 +19,9 @@
     font-size: 64px;
     text-align: center;
     display: none;
+}
+@media (max-width:37.5rem){
+    .alimentocar{
+        display: none;
+    }
 }
