@@ -46,3 +46,34 @@
     text-align:justify;
 
 }
+.nutri{
+    display: none;
+}
+
+@media (max-width:37.5rem){
+
+.paraTexto{
+    width: 100%;
+    margin-top: 4%;
+    padding: 5%;
+}
+.paraTexto .titulo{
+    font-size: 27px;
+}
+.parrafo{
+    font-size: 17px;
+}
+.para_nutri{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nutri{
+    width: 70%;
+    display: flex;
+}
+
+
+}

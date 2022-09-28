@@ -38,3 +38,11 @@
 .sentadoDialogo{
     width: 90%;
 }
+@media (max-width:37.5rem){
+
+    .sentadoDialogo{
+        display: none;
+    }
+
+    
+    }

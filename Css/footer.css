@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     padding-bottom: 2.5rem;
 }
 
@@ -29,13 +30,13 @@
     font-size: 2.5rem;
     line-height: 22px;
 
-    padding-top: 2.5rem;
+    margin-top: -6rem;
     padding-left: 4rem;
 }
 .logofooter{
     width: 86px;
     height: 87px;
-    margin-top: 5rem;
+    margin-top: 6rem;
     margin-left: -12rem;
 }
 .biologos{
@@ -65,4 +66,89 @@
     justify-content: center;
 
     text-align: center;
+}
+.conjunto1{
+    display: none;
+}
+.union2{
+    display: none;
+}
+@media (max-width:37.5rem) {
+
+    .caja1{
+        flex-direction: column;
+        padding-bottom: 1rem;
+        padding: 3%;
+    }
+    .carrera{
+        font-size: 16px;
+    }
+    .nombre0{
+        display: none;
+    }
+    .logofooter{
+        display: none;
+    }
+    .union1{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .conjunto1{
+        display: flex;
+        width: 30%;
+        margin-left: 9%;
+    }
+    .en_linea{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .nombre0V{
+        font-family: 'Fredoka One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5rem;
+    
+        padding-top: 0rem;
+        padding-left: 0rem;
+        }
+    .logofooterV{
+        width: 80px;
+        width: 80px;
+        margin-left: 1rem;
+    }
+    .union2{
+         width: 100%;
+        display: flex;
+    }
+    .biologos{
+        padding:0rem;
+    }
+    .diseñadoras{
+        display: none;
+    }   
+    .programadores{
+        display: none;
+    }
+    .diseñadorasV{
+        margin-left: 3rem;
+    
+    }
+    .programadoresV{
+        margin-left:3rem;
+    }
+    .derechos{
+        width: 100%;
+        height: 43px;
+        background-color: var(--verde);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        text-align: center;
+    }
+
 }

@@ -54,7 +54,6 @@
     color: #000000;
     
 }
-
 .a:hover{
     background-color: var(--amarillo);
     border-radius: 2rem;
@@ -62,12 +61,9 @@
     transition: 0.8s;
 }
 /*PARA TELEFONO*/
-@media screen and  (max-width:37.5rem){
-    /*.boton{
-        display: none;
-    }*/
+@media (max-width:37.5rem){
     *{
-        font-size: 10px;
+        font-size: 1rem;
     }
     .menu_principal{
         margin-top: 4%;
@@ -91,6 +87,5 @@
     .general{
         margin: 0px;
     }
-
 
 }

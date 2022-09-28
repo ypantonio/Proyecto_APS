@@ -4,7 +4,9 @@
 export let pro = document.createElement("div");
 pro.innerHTML = 
 `
+
 <!--SECCIÓN BRYAN HERNANDEZ-->
+
 <div class="area">
 <div class="paraTexto">
     <h1 class="titulo">¿Que son las proteínas?</h1>
@@ -14,6 +16,9 @@ pro.innerHTML =
 <img class="Img1" src="./img/Proteinas_img1.png" alt="">
 </div>
 <!--SECCIÓN KAREN VALDES-->
+<div class="para_nutri">
+    <img src="./img/Vector_nutricionista1.png" class="nutri" alt="">
+</div>
 <section class="para_video">
 <div class="elementosV1">
     <div class="contenedor_video">
@@ -26,6 +31,8 @@ pro.innerHTML =
     </div>
 </div>
 </section>
+
+    
 
 `;
 

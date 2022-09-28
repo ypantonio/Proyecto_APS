@@ -18,16 +18,84 @@
     font-size: 63px;
     text-align: center;
     font-family: Fredoka One;
-    display:none;
 
 }
+.tituloB{
+    display: none;
+}
+.InfoAlimento{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:3%;
+}
+.contenido_pro{
+    width: 90rem;
+    height: 50rem;
+    border-radius: 25px;
+    background-color: rgb(232, 208, 53); 
+
+}
+/**DATA DE ALIMENTOS EN PROTEÍNAS**/
 .carousel {
-    max-width: 800px;
+    max-width: 100rem;
+    height: auto;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-#imagen {
-    width: 100%;
-    height: 400px;
+.contenido{
+    width: 100rem;
+    height: 65rem;
     background-size: cover;
+    border-radius: 2rem;
+}
+.caja_botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    top: -11rem;
+    left: 30.5rem;
+}
+.back{
+    position: relative;
+    width: 14.7rem;
+    height: 4.3rem;
+    border-radius: 50px;
+    border: none;
+    margin: 0rem 0.4rem 0rem 0.4rem;
+}
+.next{
+    position: relative;
+    width: 14.7rem;
+    height: 4.3rem;
+    border-radius: 5rem;
+    border: none;
+    margin: 0rem 0.4rem 0rem 0.4rem;
+}
+@media (max-width:37.5rem){
+    .tituloA{
+        display: none;
+}
+
+    .tituloB{
+        display: flex;
+        font-size: 35px;
+        text-align: center;
+        font-family: Fredoka One;
+    }
+    .contenido_pro{
+        width: 90rem;
+        height: 50rem;
+        margin: 5%;
+        border-radius: 25px;
+        background-color: rgb(232, 208, 53); 
+    
+    }
 }
