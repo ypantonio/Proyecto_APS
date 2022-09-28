@@ -10,7 +10,7 @@ window.onload = function () {
         'img/carbohidratos/galletas2.png',
         'img/carbohidratos/avena2.png',
         'img/carbohidratos/dona1.png',
-        'img/carbohidratos/pan blanco2.png'
+        'img/carbohidratos/pan2.png'
     ];
     const TIEMPO_INTERVALO_MILESIMAS_SEG = 1000;
     let posicionActual = 0;
