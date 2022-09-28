@@ -1,15 +1,16 @@
-
 // en esta sección se agrega los objetos de la base de datos
 // YASMIN ANTONIO
 window.onload = function () {
     // Variables
     const IMAGENES = [
-        'img/proteinas/pechuga1.png',
-        '##',
-        '##',
-        '##',
-        '##',
-        '##'
+        'img/carbohidratos/Banano2.png',
+        'img/carbohidratos/cebolla2.png',
+        'img/carbohidratos/piña2.png',
+        'img/carbohidratos/calabaza1.png',
+        'img/carbohidratos/galletas2.png',
+        'img/carbohidratos/avena2.png',
+        'img/carbohidratos/dona1.png',
+        'img/carbohidratos/pan2.png'
     ];
     const TIEMPO_INTERVALO_MILESIMAS_SEG = 1000;
     let posicionActual = 0;

@@ -11,8 +11,13 @@ alimentos_carb.innerHTML =
 </section>
 <!--CONTIENE INFORMACION DE ALIMENTOS RICOS EN CARBOHIDRATOS-->
 <div class="InfoAlimento">
-<div class="contenido_pro">
-</div>
+    <div class="carousel">
+        <div id="imagen" class="contenido"></div>
+        <div class="caja_botones">
+            <button id="retroceder" class="back">Retroceder</button>
+            <button id="avanzar" class="next">Avanzar</button>
+        </div>
+    </div>
 </div>
 
 

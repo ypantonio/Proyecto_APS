@@ -38,6 +38,47 @@
     background-color: rgb(232, 208, 53); 
 
 }
+/**DATA DE ALIMENTOS EN PROTEÍNAS**/
+.carousel {
+    max-width: 100rem;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenido{
+    width: 100rem;
+    height: 65rem;
+    background-size: cover;
+    border-radius: 2rem;
+}
+.caja_botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    top: -11rem;
+    left: 30.5rem;
+}
+.back{
+    position: relative;
+    width: 14.7rem;
+    height: 4.3rem;
+    border-radius: 50px;
+    border: none;
+    margin: 0rem 0.4rem 0rem 0.4rem;
+}
+.next{
+    position: relative;
+    width: 14.7rem;
+    height: 4.3rem;
+    border-radius: 5rem;
+    border: none;
+    margin: 0rem 0.4rem 0rem 0.4rem;
+}
 @media (max-width:37.5rem){
     .tituloA{
         display: none;
