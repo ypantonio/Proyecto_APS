@@ -52,6 +52,16 @@
 
 @media (max-width:37.5rem){
 
+.Info_Pro{
+    width: 100%;
+    height: auto;
+    border-radius: 25px 25px 0px  0px;
+    background-color: var(--blanco);
+    justify-content: center;
+    align-items: center;
+    margin-top: -2rem;
+    padding-top: 4rem;
+}
 .paraTexto{
     width: 100%;
     margin-top: 4%;

@@ -19,14 +19,14 @@ carbohi.innerHTML =
 <img class="alimentocar" src="./img/carbohidrato1.png" alt="">
 </div>
 <div class="para_nutri">
-    <img src="./img/Vector_nutricionista1.png" class="nutri" alt="">
+<img src="./img//VectorNutricionista2.png" class="nutri2" alt="">
 </div>
 
 <section class="para_video2">
 <div class="elementosV2">
     <div class="contenedor_video2">
         <video controls class="video2">
-            <source src="./Videos/Video síntesis de la proteínas.mp4" type="video/mp4">
+        <source src="./Videos/Video de los carbohidratos.mp4" type="video/mp4">
         </video>
     </div>
     <div class="contenedor_personaje">

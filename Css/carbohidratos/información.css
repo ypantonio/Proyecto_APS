@@ -1,11 +1,11 @@
-.Info_Pro{
+.Info_Carbo{
     width: 100%;
     height: auto;
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
 }
-.area{
+.area2{
     width: 100%;
     margin: auto;
     display: flex;
@@ -15,7 +15,7 @@
 .Img1{
     width: 48rem;
 }
-.paraTexto{
+.paraTexto2{
     width: 50%;
     padding: 4%;
     display: flex;
@@ -24,11 +24,11 @@
     align-items: center;
 
 }
-.paraTexto .titulo{
+.paraTexto2 .titulo2{
     font-size: 43px;
 }
 
-.titulo{
+.titulo2{
     font-family: Fredoka One;
     font-weight: 400;
     line-height: 77px;
@@ -37,7 +37,7 @@
     margin-bottom: 1.5%;
 
 }
-.parrafo{
+.parrafo2{
     font-family: 'Didact Gothic', sans-serif;
     font-size: 25.2px;
     font-weight: 400;
@@ -46,21 +46,31 @@
     text-align:justify;
 
 }
-.nutri{
+.nutri2{
     display: none;
 }
 
 @media (max-width:37.5rem){
 
-.paraTexto{
+.Info_Carbo{
+    width: 100%;
+    height: auto;
+    border-radius: 25px 25px 0px  0px;
+    background-color: var(--blanco);
+    justify-content: center;
+    align-items: center;
+    margin-top: -2rem;
+    padding-top: 4rem;
+}
+.paraTexto2{
     width: 100%;
     margin-top: 4%;
     padding: 5%;
 }
-.paraTexto .titulo{
-    font-size: 27px;
+.paraTexto2 .titulo2{
+    font-size: 24px;
 }
-.parrafo{
+.parrafo2{
     font-size: 17px;
 }
 .para_nutri{
@@ -70,8 +80,8 @@
     justify-content: center;
     align-items: center;
 }
-.nutri{
-    width: 70%;
+.nutri2{
+    width: 85%;
     display: flex;
 }
 
