@@ -7,6 +7,9 @@ lip.innerHTML =
 
 <!--SECCIÓN BRYAN HERNANDEZ-->
 
+
+
+
 <!--SECCIÓN KAREN VALDES-->
 <div class="para_nutri">
     <img src="./img/Vector_nutricionista1.png" class="nutri" alt="">
