@@ -15,11 +15,10 @@ lip.innerHTML =
 <div class="elementosV1">
     <div class="contenedor_video">
         <video controls class="video1">
-            <source src="./Videos/Video síntesis de la proteínas.mp4" type="video/mp4">
-        </video>
+        <source src="./Videos/Video síntesis de los lípidos.mp4" type="video/mp4"></video>
     </div>
     <div class="contenedor_personaje">
-        <img src="./img/Group 57.png" class="sentadoDialogo" alt="">
+    <img src="./img/GrupoLi.png" class="sentadoDialogo" alt="">
     </div>
 </div>
 
