@@ -2,15 +2,15 @@
 // YASMIN ANTONIO
 window.onload = function () {
     // Variables
-    const IMAGENES = [
-        'img/carbohidratos/Banano2.png',
-        'img/carbohidratos/cebolla2.png',
-        'img/carbohidratos/piña2.png',
-        'img/carbohidratos/calabaza1.png',
-        'img/carbohidratos/galletas2.png',
-        'img/carbohidratos/avena2.png',
-        'img/carbohidratos/dona1.png',
-        'img/carbohidratos/pan2.png'
+    const imagen = [
+        'img/carbohidratos/celular/banano.png',
+        'img/carbohidratos/celular/Cebolla.png',
+        'img/carbohidratos/celular/Piña.png',
+        'img/carbohidratos/celular/Calabaza.png',
+        'img/carbohidratos/celular/saladas.png',
+        'img/carbohidratos/celular/avena.png',
+        'img/carbohidratos/celular/dona.png',
+        'img/carbohidratos/celular/blanco.png'
     ];
     const TIEMPO_INTERVALO_MILESIMAS_SEG = 1000;
     let posicionActual = 0;
@@ -25,39 +25,38 @@ window.onload = function () {
      * Funcion que cambia la foto en la siguiente posicion
      */
     function pasarFoto() {
-        if(posicionActual >= IMAGENES.length - 1) {
+        if(posicionActual >= imagen.length - 1) {
             posicionActual = 0;
         } else {
             posicionActual++;
         }
-        renderizarImagen();
+        Imagen();
     }
 
     /**
      * Funcion que cambia la foto en la anterior posicion
      */
     function retrocederFoto() {
-        if(posicionActual <= 0) {
-            posicionActual = IMAGENES.length - 1;
+        if(posicionActual <= 1) {
+            posicionActual = imagen.length - 1;
         } else {
             posicionActual--;
         }
-        renderizarImagen();
+        Imagen();
     }
 
     /**
      * Funcion que actualiza la imagen de imagen dependiendo de posicionActual
      */
-    function renderizarImagen () {
-        $imagen.style.backgroundImage = `url(${IMAGENES[posicionActual]})`;
-    } 
+    function Imagen () {
+        $imagen.style.backgroundImage = `url(${imagen[posicionActual]})`;
+    }
 
 
     // Eventos
     $botonAvanzar.addEventListener('click', pasarFoto);
     $botonRetroceder.addEventListener('click', retrocederFoto);
-
     // Iniciar
-    renderizarImagen();
+    Imagen();
 } 
 

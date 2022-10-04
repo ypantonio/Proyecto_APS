@@ -27,7 +27,7 @@
 .tituloC{
     font-size: 63px;
     text-align: center;
-    font-family: Fredoka One;
+    font-family: 'Fredoka One', cursive;
     margin-bottom: 2%;
 
 }
@@ -50,7 +50,7 @@
 
 }
 /**DATA DE ALIMENTOS EN CARBOHIDRATOS**/
-.carousel {
+.carousel{
     max-width: 100rem;
     height: auto;
     margin: 0 auto;
@@ -90,6 +90,7 @@
     border: none;
     margin: 0rem 0.4rem 0rem 0.4rem;
 }
+
 @media (max-width:37.5rem){
     .tituloC{
         display: none;
@@ -111,5 +112,48 @@
     }
     .alimentocar{
         display: none;
+    }
+    .carousel{
+        display: none;
+    }
+    .cphone{
+        width: 10rem;
+        height: auto;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #imagen{
+        width: 31.5rem;
+        height: 50.6rem;
+        background-size: cover;
+        border-radius: 2rem;
+    }
+    .caja_botones{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        position: relative;
+        top: -7rem;
+        left: -0.5rem;
+    }
+    .back{
+        position: relative;
+        width: 8.5rem;
+        height: 3rem;
+        border-radius: 50px;
+        border: none;
+        margin: 0rem 0.4rem 0rem 0.4rem;
+    }
+    .next{
+        position: relative;
+        width: 8.5rem;
+        height: 3rem;
+        border-radius: 5rem;
+        border: none;
+        margin: 0rem 0.4rem 0rem 0.4rem;
     }
 }
