@@ -17,7 +17,7 @@ datos.innerHTML =
             <div class="CImg">
                 <div class="ParaImg">
                     <img class="Frente img2Olla" src="./img/Olla.png" alt="">
-                    <img class="ImgFrente2" src="./img/Group-23.png" alt="">
+                    <img class="ImgFrente2" src="./img/Cartel-con-título 1.png" alt="">
                 </div>
             </div>
             </div>

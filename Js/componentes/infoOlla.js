@@ -117,7 +117,7 @@ nutriente.innerHTML =
                 <div class="lipidos">
                     <h3 class="subtitle1">Lípidos</h3>
                     <p class="descrip1">De crucial importancia para el <br>almacenamiento de energía.</p><br>
-                    <a class="mas1"> Ver más </a>
+                    <a class="mas1" href="./lipidos.html"> Ver más </a>
                     <img src="./img/Lípidos 1.png" alt="" class="img1">
                 </div>
     

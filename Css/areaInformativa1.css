@@ -143,8 +143,7 @@
     }
     .img2_visible{
         display: flex;
-        flex-direction: column-reverse;
-        background-image: url(/img/Group\ 33\ \(1\).png);
+        background-image: url("https://i.postimg.cc/L6YPkYP3/verde.png");
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;

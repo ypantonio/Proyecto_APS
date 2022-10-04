@@ -2,8 +2,7 @@
 /****CONECCIÓN DE LA HOME** */
 import { Crearfondo } from "./componentes/banner.js";
 Crearfondo();
-
-/*MUESTRA PARTE DE KAREN VALDÉS*/
+/*MUESTRA AREA INFORMATIVA / KAREN VALDES*/
 import {AñadirInfo} from "./componentes/areaInformativa.js";
 AñadirInfo();
 

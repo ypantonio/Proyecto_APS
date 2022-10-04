@@ -287,7 +287,7 @@ margin-top: 1%;
     margin-left: -14%;  
 }
 .para_videos{
-    width: 90%;
+    width: 100%;
     height: auto;
     padding-bottom: 1%;
     display: flex;
@@ -616,7 +616,7 @@ display: none;
     display: none;
 }
 .para_videos{
-    width: 95%;
+    width: 100%;
     margin-top: 8%;
     flex-wrap:none
     ;
