@@ -7,7 +7,13 @@ lip.innerHTML =
 
 <!--SECCIÓN BRYAN HERNANDEZ-->
 
-
+<div class="area">
+<div class="paraTexto">
+    <h1 class="titulo">¿Que son los Lípidos?</h1>
+    <p class="parrafo">Los lípidos constituyen la reserva energética de uso tardío o diferido del organismo. Su contenido calórico es muy alto (10 Kcal/gramo), y representan una forma compacta y anhidra de almacenamiento de energía.</p>
+</div>
+<img class="Img3" src="./img/Lípidos 1.png"alt="">
+</div>
 
 
 <!--SECCIÓN KAREN VALDES-->
