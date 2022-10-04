@@ -5,7 +5,6 @@
     width: 100%;
     height: auto;
     position: absolute;
-    background-color: aqua;
 }
 /*+ID*/
 .fondo02, .fondo03, .fondo04{
@@ -23,7 +22,7 @@
 }
 .espacio1{
     width: 95%;
-    height: 45rem;
+    height: 30rem;
     border-radius: 30px;
     background-color: white;
     padding-bottom: 2rem;
@@ -32,7 +31,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
+}
+.el2_titulo{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
 }
 .el2_titulo p{
     font-family: Fredoka One;
