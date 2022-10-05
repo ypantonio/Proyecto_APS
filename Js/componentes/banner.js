@@ -112,6 +112,7 @@ back.innerHTML =
 </section>
 </header>
 <!--AQUÍ TERMINA EL HEADER-->
+
     <div class="para_verde" id="banano" >
     <img class="Imag_verde_car" src="./img/carbohidratos/Banano2.png" alt="">
     <img class="Imag_verde_car2" src="./img/carbohidratos/celular/banano.png" alt="">
