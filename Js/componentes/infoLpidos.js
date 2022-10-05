@@ -20,9 +20,8 @@ lip.innerHTML =
     <div class="contenedor_personaje">
     <img src="./img/GrupoLi.png" class="sentadoDialogo" alt="">
     </div>
-</div>
+</div> <br>
 
-    
 
 `;
 

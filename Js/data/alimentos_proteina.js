@@ -5,11 +5,12 @@ window.onload = function () {
     // Variables
     const IMAGENES = [
         'img/proteinas/pechuga1.png',
-        '##',
-        '##',
-        '##',
-        '##',
-        '##'
+        'img/proteinas/pescado2.png',
+        'img/proteinas/camaron.png',
+        'img/proteinas/aguacate2.png',
+        'img/proteinas/arroz2.png',
+        'img/proteinas/fideos2.png',
+        'img/proteinas/ptrigo.png'
     ];
     const TIEMPO_INTERVALO_MILESIMAS_SEG = 1000;
     let posicionActual = 0;
