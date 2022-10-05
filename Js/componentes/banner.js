@@ -187,7 +187,7 @@ back.innerHTML =
 </div>
 <div class="para_verde" id="tomate" >
 <img class="Imag_verde_car" src="./img/ventanaLípidos/tomate.png" alt="">
-<img class="Imag_verde_car2" src="./img/ventanaLípidos/tomate.png" alt="">
+<img class="Imag_verde_car2" src="./img/ventanaLípidos/Tomate 2.png" alt="">
 <div class ="cerrar" onclick ="quitar02();">
     <p>Cerrar</p>
 </div>
