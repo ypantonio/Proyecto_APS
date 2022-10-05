@@ -7,14 +7,25 @@ lip.innerHTML =
 
 <!--SECCIÓN BRYAN HERNANDEZ-->
 
+<div class="area">
+<div class="paraTexto">
+    <h1 class="titulo">¿Que son los Lípidos?</h1>
+    <p class="parrafo">Los lípidos son un grupo de moléculas biológicas que comparten dos características: son insolubles en agua y son ricas en energía debido al número de enlaces carbono-hidrógeno. </br></br>
 
+    Los dos tipos principales de lípidos en la sangre son el colesterol y los triglicéridos.</br></br>
+    
+    
+    En cuanto a su propósito en el cuerpo humano los lípidos son de crucial importancia para el almacenamiento de energía y el desarrollo de la membrana celular. </p>
+</div>
+<img class="ImgTres" src="./img/Lípidos 1.png"alt="">
+</div>
 
 
 <!--SECCIÓN KAREN VALDES-->
 <div class="para_nutri">
-    <img src="./img/Vector_nutricionista1.png" class="nutri" alt="">
+    <img src="./img/para_lipidos.png" class="nutri" alt="">
 </div>
-<section class="para_video">
+<section class="para_video2">
 <div class="elementosV1">
     <div class="contenedor_video">
         <video controls class="video1">
