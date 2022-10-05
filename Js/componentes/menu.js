@@ -95,7 +95,7 @@ menu3.innerHTML =
 </div>
 <div class="titulo_proteina">
     <h2 class="tituloParaLi">Lípidos</h2>
-    <img src="./img/Lípidos 1.png" class="img_de_lipidos" alt="">
+    <img src="./img/lipidoss.png" class="img_de_lipidos" alt="">
 </div>
 </header>
 
