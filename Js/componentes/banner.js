@@ -72,14 +72,14 @@ back.innerHTML =
 <div class="espacio1">
     <div class="el2_titulo"><p>Alimentos Ricos en Lípidos</p></div>
     <div class="contieneImgCar">
-        <div class="espacioI"><img onclick ="mantequilla();" class="cuadrodeImg" src="./img/alimentos_buscador/Group 189.png" alt=""></div>
-        <div class="espacioI"><img onclick ="tocino();"class="cuadrodeImg" src="./img/alimentos_buscador/Group 190.png" alt=""></div>
-        <div class="espacioI"><img onclick ="tomate();"class="cuadrodeImg" src="./img/alimentos_buscador/Group 191.png" alt=""></div>
-        <div class="espacioI"><img onclick ="aceitunas();" class="cuadrodeImg" src="./img/alimentos_buscador/Group 192.png" alt=""></div>
-        <div class="espacioI"><img onclick ="aceitunasN();" class="cuadrodeImg" src="./img/alimentos_buscador/Group 192.png" alt=""></div>
-        <div class="espacioI"><img onclick ="oliva();" class="cuadrodeImg" src="./img/alimentos_buscador/Group 192.png" alt=""></div>
-        <div class="espacioI"><img onclick ="Cblanco();" class="cuadrodeImg" src="./img/alimentos_buscador/Group 192.png" alt=""></div>
-        <div class="espacioI"><img onclick ="coco();" class="cuadrodeImg" src="./img/alimentos_buscador/Group 192.png" alt=""></div>
+        <div class="espacioI"><img onclick ="mantequilla();" class="cuadrodeImg" src="./img/alimentos_buscador/Group 221.png" alt=""></div>
+        <div class="espacioI"><img onclick ="tocino();"class="cuadrodeImg" src="./img/alimentos_buscador/Group 222.png" alt=""></div>
+        <div class="espacioI"><img onclick ="tomate();"class="cuadrodeImg" src="./img/alimentos_buscador/Group 223.png" alt=""></div>
+        <div class="espacioI"><img onclick ="aceitunas();" class="cuadrodeImg" src="./img/alimentos_buscador/Group 224.png" alt=""></div>
+        <div class="espacioI"><img onclick ="aceitunasN();" class="cuadrodeImg" src="./img/alimentos_buscador/Group 225.png" alt=""></div>
+        <div class="espacioI"><img onclick ="oliva();" class="cuadrodeImg" src="./img/alimentos_buscador/Group 226.png" alt=""></div>
+        <div class="espacioI"><img onclick ="Cblanco();" class="cuadrodeImg" src="./img/alimentos_buscador/Group 227.png" alt=""></div>
+        <div class="espacioI"><img onclick ="coco();" class="cuadrodeImg" src="./img/alimentos_buscador/Group 228.png" alt=""></div>
 
 
 
@@ -94,14 +94,14 @@ back.innerHTML =
 <div class="espacio1">
     <div class="el2_titulo"><p>Alimentos Ricos en Proteínas</p></div>
     <div class="contieneImgCar">
-        <div class="espacioI"><img onclick ="pollo();" class="cuadrodeImg" src="./img/alimentos_buscador/Group 189.png" alt=""></div>
-        <div class="espacioI"><img onclick ="res();" class="cuadrodeImg" src="./img/alimentos_buscador/Group 190.png" alt=""></div>
-        <div class="espacioI"><img onclick ="pez();"class="cuadrodeImg" src="./img/alimentos_buscador/Group 191.png" alt=""></div>
-        <div class="espacioI"><img onclick ="camaron();"class="cuadrodeImg" src="./img/alimentos_buscador/Group 192.png" alt=""></div>
-        <div class="espacioI"><img onclick ="aguacate();"class="cuadrodeImg" src="./img/alimentos_buscador/Group 192.png" alt=""></div>
-        <div class="espacioI"><img onclick ="arroz();"class="cuadrodeImg" src="./img/alimentos_buscador/Group 192.png" alt=""></div>
-        <div class="espacioI"><img onclick ="fideo();"class="cuadrodeImg" src="./img/alimentos_buscador/Group 192.png" alt=""></div>
-        <div class="espacioI"><img onclick ="trigo();"class="cuadrodeImg" src="./img/alimentos_buscador/Group 192.png" alt=""></div>
+        <div class="espacioI"><img onclick ="pollo();" class="cuadrodeImg" src="./img/alimentos_buscador/Group 213.png" alt=""></div>
+        <div class="espacioI"><img onclick ="res();" class="cuadrodeImg" src="./img/alimentos_buscador/Group 214.png" alt=""></div>
+        <div class="espacioI"><img onclick ="pez();"class="cuadrodeImg" src="./img/alimentos_buscador/Group 215.png" alt=""></div>
+        <div class="espacioI"><img onclick ="camaron();"class="cuadrodeImg" src="./img/alimentos_buscador/Group 217.png" alt=""></div>
+        <div class="espacioI"><img onclick ="aguacate();"class="cuadrodeImg" src="./img/alimentos_buscador/Group 216.png" alt=""></div>
+        <div class="espacioI"><img onclick ="arroz();"class="cuadrodeImg" src="./img/alimentos_buscador/Group 218.png" alt=""></div>
+        <div class="espacioI"><img onclick ="fideo();"class="cuadrodeImg" src="./img/alimentos_buscador/Group 219.png" alt=""></div>
+        <div class="espacioI"><img onclick ="trigo();"class="cuadrodeImg" src="./img/alimentos_buscador/Group 220.png" alt=""></div>
 
 
 
