@@ -33,17 +33,11 @@
     align-items: center;
     justify-content:center;
 }
-.el2_titulo{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-}
 .el2_titulo p{
-    font-family: Fredoka One;
+font-family: Fredoka One;
 font-size: 30px;
 font-weight: 400;
 line-height: 77px;
-letter-spacing: 0em;
 text-align: center;
 color: var(--negro);
 
@@ -66,4 +60,31 @@ overflow-y: scroll;
     width: 17rem;
     height: 19rem;
     border-radius: 20px;
+}
+
+@media (max-width:37.5rem) {
+
+    .el2_titulo{
+        margin-top: 15px;
+        height: auto;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .el2_titulo p{
+        line-height: normal;
+        font-size: 22px;
+    }
+    .espacio1{
+        width: 100%;
+        margin-top: -2rem;
+        height: 45rem;
+    }
+    .cuadrodeImg{
+        width: 17rem;
+        height: 19rem;
+        border-radius: 17px;
+    }
+
 }
