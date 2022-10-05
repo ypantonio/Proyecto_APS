@@ -92,3 +92,16 @@
 	visibility: visible;
 	opacity: 1;
 }
+
+@media (max-width:37.5rem) {
+
+  .navegacion{
+    width: 85%;
+    height:4.5rem;
+    margin-top: -3rem;
+  }
+  .lupa{
+    width: 5.5rem;
+  }
+
+}
