@@ -36,9 +36,9 @@ back.innerHTML =
 <div id="listado" class="data-list"></div>  
 </div>
 <div class="sub">
-<div  id="publicaciones" style="display: none;"><div class="ver" id ="ver"><div class="arribaCarbo" onclick ="mostrar();" data-type="texto">Carbohidratos</div><div class="arriba3" onclick ="mostrar2();" data-type="texto">Lípidos</div><div class="arriba3" onclick ="mostrar3();" data-type="texto">Proteínas</div><div class="arribali"><a class="color" href="https://docs.google.com/spreadsheets/d/1M5HUZRJ--QkIW-QSF9MAehEN2Ts3lWjXaZZlThQU3vE/edit#gid=0" data-type="texto">Excel</a></div></div>
+<div  id="publicaciones" style="display: none;"><div class="arribaCarbo" onclick ="mostrar();" data-type="texto">Carbohidratos</div><div class="arriba3" onclick ="mostrar2();" data-type="texto">Lípidos</div><div class="arriba3" onclick ="mostrar3();" data-type="texto">Proteínas</div><div class="arribali"><a class="color" href="https://docs.google.com/spreadsheets/d/1M5HUZRJ--QkIW-QSF9MAehEN2Ts3lWjXaZZlThQU3vE/edit#gid=0" data-type="texto">Excel</a></div>
 </div>
-
+</br></br></br></br></br></br><br>
 <div id="Opciones_de_Carb" class="Opciones_de_Carb">
     <!--VENTANACARBOHIDRATOS-->
 <section class="fondo02" id="fondo02" onclick ="esconder();">

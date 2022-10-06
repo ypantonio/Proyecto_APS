@@ -42,6 +42,8 @@ outline: none;
 	color: #353535;
   font-family: 'Didact Gothic', sans-serif;
 	text-decoration: none;
+  margin-bottom: 30rem;
+
 }
 .search{
   width: 97%;
@@ -93,6 +95,7 @@ outline: none;
   background-color: white;
   border-radius: 0px;
   padding: 15px;
+  width: 90rem;
 
 }
 .arriba3:hover{
