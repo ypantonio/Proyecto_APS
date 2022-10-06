@@ -3,9 +3,20 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-.buscador{
-  width: 100%;
-  height: 50%;
+.bu{
+width: 80%;
+height: 3rem;
+border: none;
+outline: none;
+}
+.bu:focus{
+  border: none;
+}
+.color{
+  display: block;
+	color: #353535;
+  font-family: 'Didact Gothic', sans-serif;
+	text-decoration: none;
 }
 .navegacion{
 	width: 70%;
@@ -17,7 +28,7 @@
 	background-color: white;
   border-radius: 30px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
@@ -25,44 +36,52 @@
 .lupa{
   width: 7rem;
 }
-.navegacion ul{
-	list-style: none;
-}
-.navegacion > li{
-	position: relative;
-	display: inline-block;
-}
-
-.navegacion > li > a{
+.navegacion > a{
 	display: block;
 	padding: 15px 20px;
 	color: #353535;
   font-family: 'Didact Gothic', sans-serif;
 	text-decoration: none;
+  margin-bottom: 30rem;
+
 }
 .search{
-  width: 100%;
+  width: 97%;
+  margin: auto;
   height: auto;
+  font-size: 24px;
   padding-left: 1.5rem;
   padding-right: 0.5rem;
-}
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
 
-/* Submenu*/
-
-.submenu{
-	position: absolute;
-  padding-top: 3rem;
-	width: 100%;
-  visibility: hidden;
-	opacity: 0;
-	transition: opacity 1.5s;
 }
-.opciones li {
+.ver{
+  width:auto;
+  padding: 0rem 3rem 0rem;
+  height: auto;
+}
+.sub{
+  width:auto;
+  background-color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arribaCarbo, .arribali{
   background-color: white;
+  margin-top: 1rem;
+  padding: 15px;
+  width: 90rem;
+  border-radius: 20px 20px 0px 0px;
 
 }
-.arribaCarbo{
-  border-radius: 20px 20px 0px 0px;
+.arribali{
+  border-radius: 0px 0px 20px 20px;
+  margin-top: 0rem;
+
 }
 .arribaCarbo:hover{
   background-color: rgb(229, 229, 229);
@@ -70,38 +89,33 @@
 }
 .arribali:hover{
   background-color: rgb(229, 229, 229);
+  border-radius: 0px 0px 20px 20px;
 }
 .arriba3{
-  border-radius: 0px 0px 20px 20px;
+  background-color: white;
+  border-radius: 0px;
+  padding: 15px;
+  width: 90rem;
+
 }
 .arriba3:hover{
   background-color: rgb(229, 229, 229);
-  border-radius: 0px 0px 20px 20px;
+  border-radius: 0px;
 }
 
-.submenu .arribaCarbo , .submenu .arribali, .submenu .arriba3 {
-	display: block;
-	padding: 15px;
-	color: black;
-  font-size: 18px;
-  font-family: 'Didact Gothic', sans-serif;
-	text-decoration: none;
-}
-
-.navegacion:hover .submenu{
-	visibility: visible;
-	opacity: 1;
-}
 
 @media (max-width:37.5rem) {
 
   .navegacion{
     width: 85%;
     height:4.5rem;
-    margin-top: -3rem;
+    margin-top: 0rem;
   }
   .lupa{
     width: 5.5rem;
+  }
+  .arribaCarbo, .arribali, .arriba3{
+    width: 30rem;
   }
 
 }

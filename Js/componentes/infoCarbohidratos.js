@@ -26,7 +26,7 @@ carbohi.innerHTML =
 <div class="elementosV2">
     <div class="contenedor_video2">
         <video controls class="video2">
-        <source src="./Videos/Video de los carbohidratos.mp4" type="video/mp4">
+        <source src="./Videos/Vídeo de los crabohidrtaos.mp4" type="video/mp4">
         </video>
     </div>
     <div class="contenedor_personaje">
