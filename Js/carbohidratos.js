@@ -10,6 +10,10 @@ CrearCarbohidrato();
 import { CrearAlimentosCarbo } from "./componentes/alimentosCarbohidrato.js";
 CrearAlimentosCarbo();
 
+import { CrearCarbo } from "./componentes/carbo-phone.js";
+CrearCarbo();
+
+
 /** INFORMACIÓN SOBRE EL EQUIPO DE HEALTHY WAY / FOOTER**/
 import {Craerfooter} from "./componentes/footer.js";
 Craerfooter();

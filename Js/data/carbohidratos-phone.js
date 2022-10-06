@@ -1,62 +1,53 @@
 // en esta sección se agrega los objetos de la base de datos
 // YASMIN ANTONIO
-window.onload = function () {
-    // Variables
-    const imagen = [
-        'img/carbohidratos/celular/banano.png',
-        'img/carbohidratos/celular/Cebolla.png',
-        'img/carbohidratos/celular/Piña.png',
-        'img/carbohidratos/celular/Calabaza.png',
-        'img/carbohidratos/celular/saladas.png',
-        'img/carbohidratos/celular/avena.png',
-        'img/carbohidratos/celular/dona.png',
-        'img/carbohidratos/celular/blanco.png'
-    ];
-    const TIEMPO_INTERVALO_MILESIMAS_SEG = 1000;
-    let posicionActual = 0;
-    let $botonRetroceder = document.querySelector('#retroceder');
-    let $botonAvanzar = document.querySelector('#avanzar');
-    let $imagen = document.querySelector('#imagen');
-    let intervalo;
+export function funciones(){
+const imag = document.querySelector(".phimagen")
+const collection = document.querySelectorAll(".ali")
+const btnback = document.querySelector(".back")
+const btnext = document.querySelector(".next")
 
-    // Funciones
+btnback.addEventListener("click", prevSlide)
+btnext.addEventListener("click", nextSlide)
 
-    /**
-     * Funcion que cambia la foto en la siguiente posicion
-     */
-    function pasarFoto() {
-        if(posicionActual >= imagen.length - 1) {
-            posicionActual = 0;
-        } else {
-            posicionActual++;
-        }
-        Imagen();
+// Utility vars
+let index = 0
+
+// Set interval
+let interval = setInterval(startInterval, 2000)
+
+function startInterval() {
+    index++
+    moveCarousel()
+}
+
+function resetInterval() {
+    clearInterval(interval)
+    interval = setInterval(startInterval, 500)
+}
+
+function moveCarousel() {
+    // Last image
+    if (index > collection.length -1) {
+        index = 0
+    } else if (index < 0) {
+        index = collection.length -1
     }
 
-    /**
-     * Funcion que cambia la foto en la anterior posicion
-     */
-    function retrocederFoto() {
-        if(posicionActual <= 1) {
-            posicionActual = imagen.length - 1;
-        } else {
-            posicionActual--;
-        }
-        Imagen();
-    }
+    imag.style.transform = `translateX(-${index * 800}px)`
+}
 
-    /**
-     * Funcion que actualiza la imagen de imagen dependiendo de posicionActual
-     */
-    function Imagen () {
-        $imagen.style.backgroundImage = `url(${imagen[posicionActual]})`;
-    }
+// Nav buttons
+function prevSlide() {
+    index--
+    //resetInterval()
+    clearInterval(interval) 
+    moveCarousel()
+}
 
-
-    // Eventos
-    $botonAvanzar.addEventListener('click', pasarFoto);
-    $botonRetroceder.addEventListener('click', retrocederFoto);
-    // Iniciar
-    Imagen();
-} 
-
+function nextSlide() {
+    index++
+    //resetInterval()
+    clearInterval(interval) 
+    moveCarousel()
+}
+}

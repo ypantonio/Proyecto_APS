@@ -131,10 +131,11 @@ nutriente.innerHTML =
             
                 <!-- SECCIÓN DE VITAMINAS-->
                 <div class="vitaminas">
-                    <img src="./img/vitaminas 1.png" alt="" class="img2 img2P">
-                    <h3 class="subtitle3">Vitaminas</h3>
+                    <img src="./img/Olla.png" alt="" class="img2 img2P">
+                    <h3 class="subtitle3">Creación  de Platillo</h3>
                     <p class="descrip3"> Los pequeños nutrientes que nos <br> dan vida. </p><br>
-                    <a class="masV"> Ver más </a>
+                    <a class="masV" href="https://docs.google.com/spreadsheets/d/1M5HUZRJ--QkIW-QSF9MAehEN2Ts3lWjXaZZlThQU3vE/edit?usp=sharing" target="_blank"t> Ver más </a>
+
                 </div>
         </div>
     </div>

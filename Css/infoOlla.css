@@ -376,9 +376,16 @@ margin-top: 1%;
     font-family: 'Fredoka One';
     font-weight: 400;
     font-size: 30px;
-    margin-top: -22rem;
-    margin-left: 40rem;
+    margin-top: -19.5rem;
+    margin-right: 2rem;
+    text-align: end;
     color: var(--blanco);
+}
+.img2P{
+    width: 22rem;
+    height: 22rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
 }
 .descrip2, .descrip3{
     font-family: var(--texto);
@@ -686,7 +693,7 @@ display: none;
 .img2P{
     width: 150px;
     height: 150px;
-    margin-top: 2.5rem;
+    margin-top: -0.13rem;
     margin-left: -1rem;
 }
 .subtitle2{
@@ -696,8 +703,8 @@ display: none;
 }
 .subtitle3{
     font-size: 25px;
-    margin-top: -18rem;
-    margin-left: 20rem;
+    margin-top: -15rem;
+    margin-right: -1rem;
 }
 .descrip2, .descrip3{
     font-size: 14px;

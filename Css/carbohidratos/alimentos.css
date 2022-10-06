@@ -74,6 +74,10 @@
     top: -11rem;
     left: 30.5rem;
 }
+
+.cphone2{
+    display: none;
+}
 .back{
     position: relative;
     width: 14.7rem;
@@ -90,6 +94,11 @@
     border: none;
     margin: 0rem 0.4rem 0rem 0.4rem;
 }
+.btn{
+    display: none;
+}
+
+@media (max-width: 136.6rem) {}
 
 @media (max-width:37.5rem){
     .tituloC{
@@ -116,29 +125,46 @@
     .carousel{
         display: none;
     }
-    .cphone{
-        width: 10rem;
+    .cphone {
+        display: none;
+    }
+    .cphone2{
+        width: 40rem;
         height: auto;
-        
+        overflow: hidden;
+
         display: flex;
         flex-direction: column;
         align-items: center;
+
     }
-    #imagen{
+    .phimagen{
         width: 31.5rem;
         height: 50.6rem;
         background-size: cover;
         border-radius: 2rem;
+        transform: translateY(0);
+    }
+    .ali{
+        width: 315px;
+        height: 510px;
+        display: flex;
+        align-items: center;
     }
     .caja_botones{
+        display: none;
+    }
+    .btn{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: center;
-
+        overflow: inherit;
+        flex-basis: 33%;
+        cursor: pointer;
+        z-index: 5;
         position: relative;
-        top: -7rem;
-        left: -0.5rem;
+        top: 49rem;
+        left: -12rem;
     }
     .back{
         position: relative;

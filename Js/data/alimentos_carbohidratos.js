@@ -1,5 +1,6 @@
 // en esta sección se agrega los objetos de la base de datos
-// YASMIN ANTONIO
+// YASMIN 
+
 window.onload = function () {
     // Variables
     const IMAGENES = [
