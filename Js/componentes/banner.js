@@ -29,20 +29,14 @@ back.innerHTML =
     <div class="la-img"><img src="./img/Cocina 1.png" alt="" class="cocina"></div>
 </section>
 <!--COMIENZA BUSCADOR / KAREN VALDES-->
-<div class="navegacion">
-<ul class="menu">
-  <li><div class="search">Search ...</div>
-    <div class="submenu">
-      <ul class="opciones">
-       <li class="arribaCarbo" onclick ="mostrar();">Carbohidratos</li>
-        <li class="arribali" id ="texto_de_li" onclick ="mostrar2();">Lípidos</li>
-        <li class="arriba3" id ="texto_de_pro" onclick ="mostrar3();">Proteínas</li>
-      </ul>
-  </div>
-  </li>
-</ul>
-<img class="lupa" src="https://i.postimg.cc/K8Mc5qc5/lupa.png" alt="">
+
+<div class="navegacion" onclick ="mostrar1();">
+<div class="search"><input  class="bu" type="text" id="text_filter" placeholder="Search ...">
+<a href="#" id="btn_filtrar"><img class="lupa" src="https://i.postimg.cc/K8Mc5qc5/lupa.png" alt=""></a></div>
+<div id="listado" class="data-list"></div>  
 </div>
+<div class="sub">
+<div  id="publicaciones" style="display: none;"><div class="ver" id ="ver"><div class="arribaCarbo" onclick ="mostrar();" data-type="texto">Carbohidratos</div><div class="arriba3" onclick ="mostrar2();" data-type="texto">Lípidos</div><div class="arriba3" onclick ="mostrar3();" data-type="texto">Proteínas</div><div class="arribali"><a class="color" href="https://docs.google.com/spreadsheets/d/1M5HUZRJ--QkIW-QSF9MAehEN2Ts3lWjXaZZlThQU3vE/edit#gid=0" data-type="texto">Excel</a></div></div>
 </div>
 
 <div id="Opciones_de_Carb" class="Opciones_de_Carb">
