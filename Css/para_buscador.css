@@ -103,32 +103,13 @@ outline: none;
   border-radius: 0px;
 }
 
-/*
-
-
-
-
-
-.submenu .arribaCarbo , .submenu .arribali, .submenu .arriba3 {
-	display: block;
-	padding: 15px;
-	color: black;
-  font-size: 18px;
-  font-family: 'Didact Gothic', sans-serif;
-	text-decoration: none;
-}
-
-.navegacion:hover .submenu{
-	visibility: visible;
-	opacity: 1;
-}*/
 
 @media (max-width:37.5rem) {
 
   .navegacion{
     width: 85%;
     height:4.5rem;
-    margin-top: -3rem;
+    margin-top: 0rem;
   }
   .lupa{
     width: 5.5rem;
