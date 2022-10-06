@@ -10,6 +10,9 @@ CrearProteina();
 import { CrearAlimentosPro } from "./componentes/alimetosProteinas.js";
 CrearAlimentosPro();
 
+import { CrearPro } from "./componentes/prote-phone.js";
+CrearPro();
+
 /** INFORMACIÓN SOBRE EL EQUIPO DE HEALTHY WAY**/
 import {Craerfooter} from "./componentes/footer.js";
 Craerfooter();

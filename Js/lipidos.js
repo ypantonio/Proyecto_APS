@@ -9,6 +9,9 @@ CrearLipidos();
 import { CrearAlimentosLip } from "./componentes/alimentosLipidos.js";
 CrearAlimentosLip();
 
+import { CrearLip } from "./componentes/lipi-phone.js";
+CrearLip();
+
 /** INFORMACIÓN SOBRE EL EQUIPO DE HEALTHY WAY**/
 import {Craerfooter} from "./componentes/footer.js";
 Craerfooter();

@@ -100,8 +100,20 @@
     border: none;
     margin: 0rem 0.4rem 0rem 0.4rem;
 }
-
+.cphone2, .btn{
+    display: none;
+}
 @media (max-width:37.5rem){
+    .tituloC{
+        display: none;
+}
+
+    .tituloD{
+        display: flex;
+        font-size: 35px;
+        text-align: center;
+        font-family: Fredoka One;
+    }
     .ImgTres{
 display: none;
     }
@@ -113,5 +125,71 @@ display: none;
         padding-top: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+    .InfoAlimento{
+        width: 70.5rem;
+        height: auto;
+    }
+    .alimentocar{
+        display: none;
+    }
+    .carousel{
+        display: none;
+    }
+    .cphone {
+        display: none;
+    }
+    .cphone2{
+        width: 70.5rem;
+        height: auto;
+        overflow: hidden;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .phimagen{
+        width: 70.5rem;
+        height: 50.6rem;
+        
+        border-radius: 2rem;
+       
+        margin-left: 30rem;
+    }
+    .ali{
+        width: 315px;
+        height: 510px;
+        display: flex;
+        align-items: center;
+    }
+    .caja_botones{
+        display: none;
+    }
+    .btn{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        z-index: 5;
+        position: relative;
+        top: 21rem;
+        left: -40rem;
+    }
+    .back{
+        position: relative;
+        width: 8.5rem;
+        height: 3rem;
+        border-radius: 50px;
+        border: none;
+        margin: 0rem 0.4rem 0rem 0.4rem;
+    }
+    .next{
+        position: relative;
+        width: 8.5rem;
+        height: 3rem;
+        border-radius: 5rem;
+        border: none;
+        margin: 0rem 0.4rem 0rem 0.4rem;
     }
 }
