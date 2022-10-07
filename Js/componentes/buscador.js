@@ -1,7 +1,4 @@
-//creado por alexis aguirre https://github.com/Alex253/
-//VARIABLES DEL DOCUMENTO:
-//NOTESE QUE LA VARIABLE classInputCheckbox LLEVA EL PUNTO DE CLASE
-//EL RESTO DE CONSTANTES NO LLEVAN NINGUN PRE-NOMBRE.
+//CODIGO QUE HACE FUNCIONAR EL BUSCADOR
 const idListaOculta = "publicaciones",
 			idListaMostrar = "listado",
 			idBotonFiltrar = "btn_filtrar",
