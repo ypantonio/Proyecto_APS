@@ -1,11 +1,6 @@
-/***NO CREAR MAS COSAS EN ESTE DOCUMENTO ***/
-/**ESTRUCTURA DE HAEDER* */
-/**ESTRUCTURA DE HOME* */
-
 export let back = document.createElement("div");
 back.innerHTML = 
 `
-
         
 <!--ESTE ES EL HEADER / YASMIN ANTONIO-->
 <header id="header" class="header">
@@ -29,14 +24,13 @@ back.innerHTML =
     <div class="la-img"><img src="./img/Cocina 1.png" alt="" class="cocina"></div>
 </section>
 <!--COMIENZA BUSCADOR / KAREN VALDES-->
-
-<div class="navegacion" onclick ="mostrar1();">
+<div class="navegacion">
 <div class="search"><input  class="bu" type="text" id="text_filter" placeholder="Search ...">
 <a href="#" id="btn_filtrar"><img class="lupa" src="https://i.postimg.cc/K8Mc5qc5/lupa.png" alt=""></a></div>
 <div id="listado" class="data-list"></div>  
 </div>
 <div class="sub">
-<div  id="publicaciones" style="display: none;"><div class="arribaCarbo" onclick ="mostrar();" data-type="texto">Carbohidratos</div><div class="arriba3" onclick ="mostrar2();" data-type="texto">Lípidos</div><div class="arriba3" onclick ="mostrar3();" data-type="texto">Proteínas</div><div class="arribali"><a class="color" href="https://docs.google.com/spreadsheets/d/1M5HUZRJ--QkIW-QSF9MAehEN2Ts3lWjXaZZlThQU3vE/edit#gid=0" data-type="texto">Excel</a></div>
+<div  id="publicaciones" style="display: none;"><div class="arribaCarbo" onclick ="oliva();" data-type="texto">Aceite de Oliva</div><div class="arribaCarbo" onclick ="aceitunas();" data-type="texto">Aceitunas</div><div class="arribaCarbo" onclick ="aceitunasN();" data-type="texto">Aceitunas Negras</div><div class="arribaCarbo" onclick ="aguacate();" data-type="texto">Aguacate</div><div class="arribaCarbo" onclick ="arroz();" data-type="texto">Arroz Blanco</div><div class="arribaCarbo" onclick ="avena();" data-type="texto">Avena</div><div class="arribaCarbo" onclick ="banano();" data-type="texto">Banano</div><div class="arribaCarbo" onclick ="calabaza();" data-type="texto">Calabaza</div><div class="arribaCarbo" onclick ="camaron();" data-type="texto">Camarones</div><div class="arribali" onclick ="mostrar();" data-type="texto">Carbohidratos</div><div class="arribaCarbo" onclick ="pez();" data-type="texto">Carne de Pescado</div><div class="arribaCarbo" onclick ="pollo();" data-type="texto">Carne de Pollo</div><div class="arribaCarbo" onclick ="res();" data-type="texto">Carne de Res</div><div class="arribaCarbo" onclick ="cebolla();" data-type="texto">Cebolla</div><div class="arribaCarbo" onclick ="Cblanco();" data-type="texto">Chocolate Blanco</div><div class="arribaCarbo" onclick ="coco();" data-type="texto">Coco</div><div class="arribaCarbo" onclick ="dona();" data-type="texto">Dona de Chocolate</div><div class="arribaCarbo" onclick ="fideo();" data-type="texto">Fideos</div><div class="arribaCarbo" onclick ="gSaladas();" data-type="texto">Galletas Saladas</div><div class="arriba3" onclick ="mostrar2();" data-type="texto">Lípidos</div><div class="arribaCarbo" onclick ="mantequilla();" data-type="texto">Mantequilla</div><div class="arribaCarbo" onclick ="pan();" data-type="texto">Pan</div><div class="arribaCarbo" onclick ="pina();" data-type="texto">Piña</div><div class="arriba3" onclick ="mostrar3();" data-type="texto">Proteínas</div><div class="arriba3" onclick ="tocino();" data-type="texto">Tocino</div><div class="arriba3" onclick ="tomate();" data-type="texto">Tomate</div><div class="arribali"><a class="color" href="https://docs.google.com/spreadsheets/d/1M5HUZRJ--QkIW-QSF9MAehEN2Ts3lWjXaZZlThQU3vE/edit#gid=0" data-type="texto">Excel</a></div>
 </div>
 </br></br></br></br></br></br><br>
 <div id="Opciones_de_Carb" class="Opciones_de_Carb">
@@ -53,9 +47,6 @@ back.innerHTML =
         <div class="espacioI"><img onclick ="avena();" class="cuadrodeImg" src="./img/alimentos_buscador/Group 212.png" alt=""></div>
         <div class="espacioI"><img onclick ="dona();" class="cuadrodeImg" src="./img/alimentos_buscador/Group 191.png" alt=""></div>
         <div class="espacioI"><img onclick ="pan();" class="cuadrodeImg" src="./img/alimentos_buscador/Group 192.png" alt=""></div>
-
-
-
     </div>
 </div>
 </section>
@@ -74,10 +65,6 @@ back.innerHTML =
         <div class="espacioI"><img onclick ="oliva();" class="cuadrodeImg" src="./img/alimentos_buscador/Group 226.png" alt=""></div>
         <div class="espacioI"><img onclick ="Cblanco();" class="cuadrodeImg" src="./img/alimentos_buscador/Group 227.png" alt=""></div>
         <div class="espacioI"><img onclick ="coco();" class="cuadrodeImg" src="./img/alimentos_buscador/Group 228.png" alt=""></div>
-
-
-
-
     </div>
 </div>
 </section>
@@ -96,17 +83,11 @@ back.innerHTML =
         <div class="espacioI"><img onclick ="arroz();"class="cuadrodeImg" src="./img/alimentos_buscador/Group 218.png" alt=""></div>
         <div class="espacioI"><img onclick ="fideo();"class="cuadrodeImg" src="./img/alimentos_buscador/Group 219.png" alt=""></div>
         <div class="espacioI"><img onclick ="trigo();"class="cuadrodeImg" src="./img/alimentos_buscador/Group 220.png" alt=""></div>
-
-
-
-
-
     </div>
 </div>
 </section>
 </header>
 <!--AQUÍ TERMINA EL HEADER-->
-
     <div class="para_verde" id="banano" >
     <img class="Imag_verde_car" src="./img/carbohidratos/Banano2.png" alt="">
     <img class="Imag_verde_car2" src="./img/carbohidratos/celular/banano.png" alt="">
@@ -163,7 +144,6 @@ back.innerHTML =
     <p>Cerrar</p>
 </div>
 </div>
-
 <!--LÍPIDOS-->
 <div class="para_verde" id="mantequilla" >
     <img class="Imag_verde_car" src="./img/ventanaLípidos/Mantequilla.png" alt="">
@@ -221,7 +201,6 @@ back.innerHTML =
     <p>Cerrar</p>
 </div>
 </div>
-
 <!--PROTEINAS-->
 <div class="para_verde" id="pollo" >
     <img class="Imag_verde_car" src="./img/ventanaProteinas/Pollo2.png" alt="">
@@ -279,7 +258,6 @@ back.innerHTML =
     <p>Cerrar</p>
 </div>
 </div>
-
     
         
  
@@ -294,4 +272,3 @@ export function Crearfondo(){
     let div_sect = document.querySelector("#sect");
     div_sect.appendChild(back);
 }
-

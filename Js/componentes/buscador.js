@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded",()=>{
 	function verificarListaVacia(){
 		if (list.childNodes.length === 0){
 			let texto = document.createElement("p");
-			texto.textContent = "Termino no encontrado, verifica si has escrito bien todo los caracteres";
+			texto.textContent = "Termino no encontrado, verifica si has escrito bien todo los caracteres o selecciona una de las opciones de sugerencia.";
 			list.appendChild(texto);
 		}
 	}
