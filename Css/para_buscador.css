@@ -3,6 +3,19 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+.data-list{
+width: 97%;
+height: 20rem;
+background-color: white;
+display: flex;
+flex-wrap: wrap;
+overflow-y: scroll;
+position: absolute;
+margin-top: 60px;
+border-radius: 15px;
+padding: 0.5% 1%;
+
+}
 .bu{
 width: 80%;
 height: 3rem;
@@ -74,28 +87,24 @@ outline: none;
   background-color: white;
   margin-top: 1rem;
   padding: 15px;
-  width: 90rem;
-  border-radius: 20px 20px 0px 0px;
+  width: 100%;
 
 }
 .arribali{
-  border-radius: 0px 0px 20px 20px;
   margin-top: 0rem;
 
 }
 .arribaCarbo:hover{
   background-color: rgb(229, 229, 229);
-  border-radius: 20px 20px 0px 0px;
 }
 .arribali:hover{
   background-color: rgb(229, 229, 229);
-  border-radius: 0px 0px 20px 20px;
 }
 .arriba3{
   background-color: white;
   border-radius: 0px;
   padding: 15px;
-  width: 90rem;
+  width: 100%;
 
 }
 .arriba3:hover{
@@ -113,9 +122,6 @@ outline: none;
   }
   .lupa{
     width: 5.5rem;
-  }
-  .arribaCarbo, .arribali, .arriba3{
-    width: 30rem;
   }
 
 }
